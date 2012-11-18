@@ -1,0 +1,111 @@
+/*
+ * ListaDinamica.cpp
+ *
+ *  Created on: 09/03/2012
+ *      Author: repli
+ */
+#include <cstring>
+#include <assert.h>
+#ifndef NODO
+#define NODO
+
+template<class E> class Nodo {
+
+private:
+	E _dato;
+	Nodo<E>* _sig;
+
+	Nodo(const Nodo<E>* sig, E dato) {
+		_sig = sig;
+		_dato = dato;
+	}
+
+	Nodo() {
+		_sig = NULL;
+	}
+
+	Nodo(const E dato) {
+		_sig = NULL;
+		_dato = dato;
+	}
+
+	friend class Cola;
+};
+
+#endif
+
+#ifndef LISTADINAMICA
+#define LISTADINAMICA // Define la cola
+using namespace std;
+
+template<class E> class ListaDinamica {
+
+private:
+	Nodo<E>* _ultimo;
+	Nodo<E>* _primero;
+	int _numElementos;
+
+public:
+
+	ListaDinamica() {
+
+		_primero = NULL;
+		_ultimo = NULL;
+		_numElementos = 0;
+	}
+
+	ListaDinamica(const E elemento) { //A–adir por la izquierda
+
+		Nodo<E>* aux;
+
+		if (_primero == NULL) {
+			_primero = aux;
+		} else {
+			_primero -> _ant = aux;
+			aux->_sig = _primero;
+		}
+
+		_ultimo = aux;
+		_numElementos++;
+	}
+
+	bool isEmpty() {
+		return _numElementos == 0;
+	}
+
+	int length() {
+		return _numElementos;
+	}
+
+	void resto() {
+
+		assert(_numElementos > 0);
+		Nodo<E>* aux;
+
+		do {
+
+			aux = _primero -> _sig;
+
+		} while ();
+	}
+
+	E elementoIesimo(int posicion) {
+
+		int contador = 0;
+		Nodo<E>* aux;
+
+		assert(_numElementos != 0);
+
+		aux = _primero;
+
+		do {
+
+			aux = aux -> _sig;
+			contador++;
+				} while (contador < posicion);
+
+		return aux -> _dato;
+	}
+};
+
+#endif

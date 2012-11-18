@@ -1,0 +1,20 @@
+BeginMap
+BeginRooms
+room 0 Cero Estamos_en_la_entrada._Comienza_la_aventura noexit
+room 1 Uno Llegamos_a_la_salida noexit
+room 2 Dos La_de_la_izquierda noexit
+room 3 Tres La_final exit
+room 4 Cuatro La_de_la_derecha noexit
+EndRooms
+BeginDoors
+door 0 bidirectional room 0 south room 1 open
+door 1 bidirectional room 1 west room 2 open
+door 2 directional room 1 east room 4 open
+door 3 bidirectional room 2 south room 3 closed
+EndDoors
+BeginItems
+key 0 Llave Abre_la_puerta door 3 room 2
+food 1 Agua Botella_de_agua 10 3 room 0
+food 2 Carne Esta_podrida -10 1 room 4
+EndItems
+EndMap

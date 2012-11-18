@@ -1,0 +1,19 @@
+BeginMap
+BeginRooms
+room 0 Entrada Estamos_en_la_entrada._Comienza_la_aventura noexit
+room 1 Pasillo Esto_es_un_pasillo. noexit
+room 2 Salon Hemos_llegado_al_salon._Al_Norte_parece_que_hay_una_puerta. noexit
+room 3 Salida Llegamos_a_la_salida exit
+EndRooms
+BeginDoors
+door 0 bidirectional room 0 south room 1 open
+door 1 directional room 1 east room 2 open
+door 2 directional room 2 north room 3 closed
+EndDoors
+BeginItems
+food 0 Agua Botella_de_agua,_entran_tres_tragos 10 3 room 0
+food 1 Carne Parece_carne,_pero_no_huele_igual... -50 1 room 0
+key 2 Llave Una_llave_brillante door 2 room 1
+valuable 3 moneda Moneda_brillante,_parece_de_oro. 30 room 2
+EndItems
+EndMap

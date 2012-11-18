@@ -1,0 +1,114 @@
+<class-diagram version="1.0.9" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" corner="BOTTOM_RIGHT" language="java" name="tp.pr5.commands.PickCommand" 
+    project="JavaInteractiveFiction" file="/JavaInteractiveFiction/src/tp/pr5/commands/PickCommand.java" binary="false">    
+    <position height="349" width="249" x="168" y="13"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="2" corner="BOTTOM_RIGHT" language="java" name="tp.pr5.commands.HelpCommand" 
+    project="JavaInteractiveFiction" file="/JavaInteractiveFiction/src/tp/pr5/commands/HelpCommand.java" binary="false">    
+    <position height="230" width="249" x="1035" y="13"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="3" corner="BOTTOM_RIGHT" language="java" name="tp.pr5.commands.GoCommand" project="JavaInteractiveFiction" 
+    file="/JavaInteractiveFiction/src/tp/pr5/commands/GoCommand.java" binary="false">    
+    <position height="349" width="249" x="746" y="13"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="4" corner="BOTTOM_RIGHT" language="java" name="tp.pr5.commands.DropCommand" 
+    project="JavaInteractiveFiction" file="/JavaInteractiveFiction/src/tp/pr5/commands/DropCommand.java" binary="false">    
+    <position height="349" width="249" x="457" y="13"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="5" corner="BOTTOM_RIGHT" language="java" name="tp.pr5.commands.ExamineCommand" 
+    project="JavaInteractiveFiction" file="/JavaInteractiveFiction/src/tp/pr5/commands/ExamineCommand.java" 
+    binary="false">    
+    <position height="264" width="249" x="1324" y="13"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="6" corner="BOTTOM_RIGHT" language="java" name="tp.pr5.commands.UseCommand" project="JavaInteractiveFiction" 
+    file="/JavaInteractiveFiction/src/tp/pr5/commands/UseCommand.java" binary="false">    
+    <position height="315" width="249" x="1613" y="13"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="7" corner="BOTTOM_RIGHT" language="java" name="tp.pr5.commands.QuitCommand" 
+    project="JavaInteractiveFiction" file="/JavaInteractiveFiction/src/tp/pr5/commands/QuitCommand.java" binary="false">    
+    <position height="230" width="249" x="2191" y="13"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <class id="8" corner="BOTTOM_RIGHT" language="java" name="tp.pr5.commands.LookCommand" 
+    project="JavaInteractiveFiction" file="/JavaInteractiveFiction/src/tp/pr5/commands/LookCommand.java" binary="false">    
+    <position height="298" width="249" x="1902" y="13"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" corner="BOTTOM_RIGHT" language="java" name="tp.pr5.commands.Command" 
+    project="JavaInteractiveFiction" file="/JavaInteractiveFiction/src/tp/pr5/commands/Command.java" binary="false">    
+    <position height="196" width="249" x="1180" y="402"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true"/>      
+      <operations public="true" package="true" protected="true" private="true"/>    
+    </display>  
+  </interface>  
+  <realization id="10">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="11">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="12">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="13">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="14">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="15">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="16">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="17">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true"/>    
+    <operations public="true" package="true" protected="true" private="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

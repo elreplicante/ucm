@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1331292205103
+started,bundle,org.eclipse.osgi,3.7.1.R37x_v20110808-1106,"org.eclipse.osgi",1331292205104
+started,bundle,org.eclipse.equinox.simpleconfigurator,1.0.200.v20110502-1955,"org.eclipse.equinox.simpleconfigurator",1331292205138
+started,bundle,com.ibm.icu,4.4.2.v20110208,"com.ibm.icu",1331292205178
+started,bundle,org.eclipse.core.contenttype,3.4.100.v20110423-0524,"org.eclipse.core.contenttype",1331292205186
+started,bundle,org.eclipse.core.databinding.observable,1.4.0.I20110222-0800,"org.eclipse.core.databinding.observable",1331292205208
+started,bundle,org.eclipse.core.expressions,3.4.300.v20110228,"org.eclipse.core.expressions",1331292205243
+started,bundle,org.eclipse.core.filebuffers,3.5.200.v20110505-0800,"org.eclipse.core.filebuffers",1331292205255
+started,bundle,org.eclipse.core.filesystem,1.3.100.v20110423-0524,"org.eclipse.core.filesystem",1331292205329
+started,bundle,org.eclipse.core.jobs,3.5.100.v20110404,"org.eclipse.core.jobs",1331292205365
+started,bundle,org.eclipse.core.net,1.2.100.I20110511-0800,"org.eclipse.core.net",1331292205380
+started,bundle,org.eclipse.core.resources,3.7.100.v20110510-0712,"org.eclipse.core.resources",1331292205404
+started,bundle,org.eclipse.core.runtime,3.7.0.v20110110,"org.eclipse.core.runtime",1331292205405
+started,bundle,org.eclipse.core.runtime.compatibility,3.2.100.v20100505,"org.eclipse.core.runtime.compatibility",1331292205430
+started,bundle,org.eclipse.core.runtime.compatibility.auth,3.2.200.v20110110,"org.eclipse.core.runtime.compatibility.auth",1331292205439
+started,bundle,org.eclipse.debug.core,3.7.0.v20110518,"org.eclipse.debug.core",1331292205532
+started,bundle,org.eclipse.emf.common,2.7.0.v20110912-0920,"org.eclipse.emf.common",1331292205532
+started,bundle,org.eclipse.emf.ecore,2.7.0.v20110912-0920,"org.eclipse.emf.ecore",1331292205532
+started,bundle,org.eclipse.emf.ecore.edit,2.7.0.v20110913-1156,"org.eclipse.emf.ecore.edit",1331292205583
+started,bundle,org.eclipse.emf.ecore.xmi,2.7.0.v20110520-1406,"org.eclipse.emf.ecore.xmi",1331292205648
+started,bundle,org.eclipse.emf.edit,2.7.1.v20110913-1526,"org.eclipse.emf.edit",1331292205663
+started,bundle,org.eclipse.epp.mpc.ui,1.1.1.I20110907-0947,"org.eclipse.epp.mpc.ui",1331292205701
+started,bundle,org.eclipse.epp.usagedata.gathering,1.3.1.R201106061540,"org.eclipse.epp.usagedata.gathering",1331292205731
+started,bundle,org.eclipse.epp.usagedata.recording,1.3.1.R201106061540,"org.eclipse.epp.usagedata.recording",1331292205756
+started,bundle,org.eclipse.equinox.app,1.3.100.v20110321,"org.eclipse.equinox.app",1331292205789
+started,bundle,org.eclipse.equinox.common,3.6.0.v20110523,"org.eclipse.equinox.common",1331292205819
+started,bundle,org.eclipse.equinox.ds,1.3.1.R37x_v20110701,"org.eclipse.equinox.ds",1331292205846
+started,bundle,org.eclipse.equinox.event,1.2.100.v20110502,"org.eclipse.equinox.event",1331292205874
+started,bundle,org.eclipse.equinox.p2.core,2.1.0.v20110502-1955,"org.eclipse.equinox.p2.core",1331292205875
+started,bundle,org.eclipse.equinox.p2.directorywatcher,1.0.300.v20110502-1955,"org.eclipse.equinox.p2.directorywatcher",1331292205901
+started,bundle,org.eclipse.equinox.p2.engine,2.1.0.v20110511,"org.eclipse.equinox.p2.engine",1331292205945
+started,bundle,org.eclipse.equinox.p2.metadata,2.1.0.v20110510,"org.eclipse.equinox.p2.metadata",1331292206012
+started,bundle,org.eclipse.equinox.p2.metadata.repository,1.2.0.v20110511-1359,"org.eclipse.equinox.p2.metadata.repository",1331292206013
+started,bundle,org.eclipse.equinox.p2.operations,2.1.0.v20110511-1821,"org.eclipse.equinox.p2.operations",1331292206014
+started,bundle,org.eclipse.equinox.p2.reconciler.dropins,1.1.100.v20110510,"org.eclipse.equinox.p2.reconciler.dropins",1331292206070
+started,bundle,org.eclipse.equinox.p2.repository,2.1.0.v20110601,"org.eclipse.equinox.p2.repository",1331292206115
+started,bundle,org.eclipse.equinox.p2.ui.sdk.scheduler,1.0.100.v20110502-1955,"org.eclipse.equinox.p2.ui.sdk.scheduler",1331292206153
+started,bundle,org.eclipse.equinox.p2.updatechecker,1.1.200.v20110502-1955,"org.eclipse.equinox.p2.updatechecker",1331292206180
+started,bundle,org.eclipse.equinox.preferences,3.4.1.R37x_v20110725,"org.eclipse.equinox.preferences",1331292206199
+started,bundle,org.eclipse.equinox.registry,3.5.101.R37x_v20110810-1611,"org.eclipse.equinox.registry",1331292206237
+started,bundle,org.eclipse.equinox.security,1.1.1.R37x_v20110822-1018,"org.eclipse.equinox.security",1331292206297
+started,bundle,org.eclipse.equinox.util,1.0.300.v20110502,"org.eclipse.equinox.util",1331292206326
+started,bundle,org.eclipse.help,3.5.100.v20110426,"org.eclipse.help",1331292206422
+started,bundle,org.eclipse.jdt.core,3.7.1.v_B76_R37x,"org.eclipse.jdt.core",1331292206484
+started,bundle,org.eclipse.jdt.core.manipulation,1.4.0.v20110505-0800,"org.eclipse.jdt.core.manipulation",1331292206521
+started,bundle,org.eclipse.jdt.junit.core,3.7.0.v20110518-0800,"org.eclipse.jdt.junit.core",1331292206568
+started,bundle,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui",1331292206668
+started,bundle,org.eclipse.jface,3.7.0.I20110522-1430,"org.eclipse.jface",1331292206703
+started,bundle,org.eclipse.jsch.core,1.1.300.I20110514-0800,"org.eclipse.jsch.core",1331292206736
+started,bundle,org.eclipse.ltk.core.refactoring,3.5.201.r371_v20110824-0800,"org.eclipse.ltk.core.refactoring",1331292206821
+started,bundle,org.eclipse.m2e.discovery,1.0.100.20110804-1717,"org.eclipse.m2e.discovery",1331292206874
+started,bundle,org.eclipse.m2e.logback.configuration,1.0.100.20110804-1717,"org.eclipse.m2e.logback.configuration",1331292206874
+started,bundle,org.eclipse.mylyn.bugzilla.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.bugzilla.ui",1331292206952
+started,bundle,org.eclipse.mylyn.commons.identity,0.8.0.v20110608-1400,"org.eclipse.mylyn.commons.identity",1331292206976
+started,bundle,org.eclipse.mylyn.commons.net,3.6.0.v20110608-1400,"org.eclipse.mylyn.commons.net",1331292206976
+started,bundle,org.eclipse.mylyn.commons.ui,3.6.1.v20110720-0100,"org.eclipse.mylyn.commons.ui",1331292207026
+started,bundle,org.eclipse.mylyn.context.core,3.6.1.v20110720-0100,"org.eclipse.mylyn.context.core",1331292207051
+started,bundle,org.eclipse.mylyn.context.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.context.ui",1331292207088
+started,bundle,org.eclipse.mylyn.monitor.ui,3.6.0.v20110608-1400,"org.eclipse.mylyn.monitor.ui",1331292207097
+started,bundle,org.eclipse.mylyn.team.ui,3.6.1.v20110825-0100,"org.eclipse.mylyn.team.ui",1331292207153
+started,bundle,org.eclipse.search,3.7.0.v20110505-0800,"org.eclipse.search",1331292207229
+started,bundle,org.eclipse.team.core,3.6.0.I20110525-0800,"org.eclipse.team.core",1331292207255
+started,bundle,org.eclipse.team.cvs.core,3.3.400.I20110510-0800,"org.eclipse.team.cvs.core",1331292207335
+started,bundle,org.eclipse.team.cvs.ui,3.3.400.I20110510-0800,"org.eclipse.team.cvs.ui",1331292207412
+started,bundle,org.eclipse.team.ui,3.6.100.I20110525-0800,"org.eclipse.team.ui",1331292207473
+started,bundle,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui",1331292207562
+started,bundle,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console",1331292207594
+started,bundle,org.eclipse.ui.editors,3.7.0.v20110517-0800,"org.eclipse.ui.editors",1331292207665
+started,bundle,org.eclipse.ui.forms,3.5.100.v20110425,"org.eclipse.ui.forms",1331292207705
+started,bundle,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.ide",1331292207801
+started,bundle,org.eclipse.ui.intro,3.4.100.v20110425,"org.eclipse.ui.intro",1331292207926
+started,bundle,org.eclipse.ui.intro.universal,3.2.500.v20110510,"org.eclipse.ui.intro.universal",1331292207926
+started,bundle,org.eclipse.ui.net,1.2.100.I20110511-0800,"org.eclipse.ui.net",1331292207989
+started,bundle,org.eclipse.ui.views,3.6.0.I20110412-0800,"org.eclipse.ui.views",1331292208014
+started,bundle,org.eclipse.ui.views.log,1.0.200.v20110404,"org.eclipse.ui.views.log",1331292208046
+started,bundle,org.eclipse.ui.views.properties.tabbed,3.5.200.I20110201-0800,"org.eclipse.ui.views.properties.tabbed",1331292208066
+started,bundle,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"org.eclipse.ui.workbench",1331292208169
+started,bundle,org.eclipse.ui.workbench.texteditor,3.7.0.v20110505-0800,"org.eclipse.ui.workbench.texteditor",1331292208280
+started,bundle,org.eclipse.update.configurator,3.3.100.v20100512,"org.eclipse.update.configurator",1331292208304
+started,bundle,org.eclipse.update.core,3.2.500.v20110330,"org.eclipse.update.core",1331292208383
+started,bundle,org.eclipse.update.scheduler,3.2.300.v20100512,"org.eclipse.update.scheduler",1331292208463
+started,bundle,org.eclipse.wb.discovery.core,1.1.0.r37x201109091028,"org.eclipse.wb.discovery.core",1331292208523
+started,bundle,org.eclipse.wb.discovery.ui,1.1.0.r37x201109091028,"org.eclipse.wb.discovery.ui",1331292208552
+started,bundle,org.eclipse.cdt.codan.ui.cxx,2.0.0.201109151620,"org.eclipse.cdt.codan.ui.cxx",1331292208586
+started,bundle,org.eclipse.mylyn.bugzilla.core,3.6.3.v20111014-0100,"org.eclipse.mylyn.bugzilla.core",1331292208655
+started,bundle,org.eclipse.emf.facet.widgets.nattable,0.1.1.v201109140754,"org.eclipse.emf.facet.widgets.nattable",1331292208710
+started,bundle,org.eclipse.emf.transaction,1.4.0.v20100331-1738,"org.eclipse.emf.transaction",1331292208781
+started,bundle,org.eclipse.gmf.runtime.common.core,1.4.1.v20101119-2230,"org.eclipse.gmf.runtime.common.core",1331292208822
+started,bundle,org.eclipse.gmf.runtime.common.ui,1.5.0.v20101221-2230,"org.eclipse.gmf.runtime.common.ui",1331292208932
+started,bundle,org.eclipse.gmf.runtime.diagram.core,1.4.1.v20101221-2230,"org.eclipse.gmf.runtime.diagram.core",1331292208996
+started,bundle,org.eclipse.gmf.runtime.diagram.ui,1.5.0.v20110309-2230,"org.eclipse.gmf.runtime.diagram.ui",1331292209084
+started,bundle,org.eclipse.papyrus.core,0.8.1.v201109161105,"org.eclipse.papyrus.core",1331292209084
+started,bundle,org.eclipse.papyrus.diagram.common,0.8.1.v201109161105,"org.eclipse.papyrus.diagram.common",1331292209182
+started,bundle,org.eclipse.papyrus.diagram.component,0.9.0.v201109161105,"org.eclipse.papyrus.diagram.component",1331292209326
+started,bundle,org.eclipse.papyrus.diagram.composite,0.8.1.v201109161105,"org.eclipse.papyrus.diagram.composite",1331292209464
+started,bundle,org.eclipse.papyrus.diagram.deployment,0.9.0.v201109161105,"org.eclipse.papyrus.diagram.deployment",1331292209464
+started,bundle,org.eclipse.papyrus.diagram.menu,0.8.1.v201109161105,"org.eclipse.papyrus.diagram.menu",1331292209542
+started,bundle,org.eclipse.papyrus.log,0.8.1.v201109161105,"org.eclipse.papyrus.log",1331292209577
+started,bundle,org.eclipse.papyrus.modelexplorer,0.8.1.v201109161105,"org.eclipse.papyrus.modelexplorer",1331292209672
+started,bundle,org.eclipse.papyrus.preferences,0.8.1.v201109161105,"org.eclipse.papyrus.preferences",1331292209693
+started,bundle,org.eclipse.papyrus.sasheditor,0.8.1.v201109161105,"org.eclipse.papyrus.sasheditor",1331292209714
+started,bundle,org.eclipse.papyrus.sysml,0.8.1.v201109161105,"org.eclipse.papyrus.sysml",1331292209714
+started,bundle,org.eclipse.papyrus.sysml.diagram.common,0.8.1.v201109161105,"org.eclipse.papyrus.sysml.diagram.common",1331292209761
+started,bundle,org.eclipse.papyrus.sysml.diagram.internalblock,0.8.1.v201109161105,"org.eclipse.papyrus.sysml.diagram.internalblock",1331292209852
+started,bundle,org.eclipse.papyrus.sysml.edit,0.8.1.v201109161105,"org.eclipse.papyrus.sysml.edit",1331292209900
+started,bundle,org.eclipse.papyrus.table.menu,0.8.1.v201109161105,"org.eclipse.papyrus.table.menu",1331292209919
+started,bundle,org.eclipse.papyrus.uml.standard,0.8.1.v201109161105,"org.eclipse.papyrus.uml.standard",1331292209941
+started,bundle,org.eclipse.papyrus.uml.standard.edit,0.8.1.v201109161105,"org.eclipse.papyrus.uml.standard.edit",1331292210062
+started,bundle,org.eclipse.pde.launching,3.6.0.v20110506,"org.eclipse.pde.launching",1331292210098
+started,bundle,org.eclipse.pde.ui,3.6.100.v20110603,"org.eclipse.pde.ui",1331292210224
+started,bundle,org.eclipse.uml2.common.edit,1.5.0.v201005031530,"org.eclipse.uml2.common.edit",1331292210252
+started,bundle,org.eclipse.uml2.uml,3.2.100.yatta-patch-201111020428,"org.eclipse.uml2.uml",1331292210388
+started,bundle,org.eclipse.uml2.uml.edit,3.1.100.v201009281840,"org.eclipse.uml2.uml.edit",1331292210524
+started,bundle,com.itsolut.mantis.core,3.8.0.201112131432,"com.itsolut.mantis.core",1331292210615
+started,bundle,com.itsolut.mantis.ui,3.8.0.201112131432,"com.itsolut.mantis.ui",1331292210665
+started,bundle,org.eclipse.mylyn.tasks.ui,3.6.4.v20111117-0100,"org.eclipse.mylyn.tasks.ui",1331292210770
+started,bundle,org.eclipse.team.svn.core,0.7.9.I20111123-1700,"org.eclipse.team.svn.core",1331292210872
+started,bundle,org.eclipse.team.svn.mylyn,0.7.9.I20110318-1700,"org.eclipse.team.svn.mylyn",1331292210947
+started,bundle,org.eclipse.team.svn.ui,0.7.9.I20111123-1700,"org.eclipse.team.svn.ui",1331292211060
+started,bundle,org.polarion.eclipse.team.svn.connector.svnkit16,2.2.2.I20111119-1700,"org.polarion.eclipse.team.svn.connector.svnkit16",1331292211094
+started,bundle,com.happyprog.pulse,1.0.0.201105231012,"com.happyprog.pulse",1331292211133
+os,sysinfo,,,"macosx",1331292211136
+arch,sysinfo,,,"x86_64",1331292211136
+ws,sysinfo,,,"cocoa",1331292211136
+locale,sysinfo,,,"es_ES",1331292211136
+processors,sysinfo,,,"4",1331292211136
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1331292211136
+java.runtime.version,sysinfo,,,"1.6.0_29-b11-402-11D50b",1331292211136
+java.specification.name,sysinfo,,,"Java Platform API Specification",1331292211136
+java.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1331292211136
+java.specification.version,sysinfo,,,"1.6",1331292211136
+java.vendor,sysinfo,,,"Apple Inc.",1331292211136
+java.version,sysinfo,,,"1.6.0_29",1331292211136
+java.vm.info,sysinfo,,,"mixed mode",1331292211136
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1331292211136
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1331292211136
+java.vm.specification.vendor,sysinfo,,,"Sun Microsystems Inc.",1331292211136
+java.vm.specification.version,sysinfo,,,"1.0",1331292211136
+java.vm.vendor,sysinfo,,,"Apple Inc.",1331292211136
+java.vm.version,sysinfo,,,"20.4-b02-402",1331292211136
+started,bundle,org.eclipse.m2e.usagedata,1.0.100.20110804-1717,"org.eclipse.m2e.usagedata",1331292211255
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292211298
+started,bundle,org.eclipse.dltk.core,3.0.1.v20110823,"org.eclipse.dltk.core",1331292211369
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1331292211391
+started,bundle,org.eclipse.dltk.launching,3.0.0.v20110423,"org.eclipse.dltk.launching",1331292211436
+started,bundle,org.eclipse.dltk.ui,3.0.1.v20110823,"org.eclipse.dltk.ui",1331292211651
+started,bundle,org.eclipse.papyrus.core.resourceloading,0.8.1.v201109161105,"org.eclipse.papyrus.core.resourceloading",1331292211671
+started,bundle,org.eclipse.papyrus.sysml.table.allocation,0.8.1.v201109161105,"org.eclipse.papyrus.sysml.table.allocation",1331292211680
+started,bundle,org.eclipse.papyrus.sysml.modelexplorer,0.8.1.v201109161105,"org.eclipse.papyrus.sysml.modelexplorer",1331292211681
+started,bundle,org.eclipse.papyrus.table.common,0.8.1.v201109161105,"org.eclipse.papyrus.table.common",1331292211737
+started,bundle,org.eclipse.papyrus.ui.perspectiveconfiguration,0.8.1.v201109161105,"org.eclipse.papyrus.ui.perspectiveconfiguration",1331292211738
+started,bundle,org.eclipse.papyrus.uml.menu,0.8.1.v201109161105,"org.eclipse.papyrus.uml.menu",1331292211738
+started,bundle,org.eclipse.emf.facet.widgets.nattable.tableconfiguration,0.1.1.v201109140754,"org.eclipse.emf.facet.widgets.nattable.tableconfiguration",1331292211756
+started,bundle,org.eclipse.xtext.gmf.glue,0.8.1.v201109161105,"org.eclipse.xtext.gmf.glue",1331292211784
+started,bundle,org.eclipse.emf.facet.infra.query.core,0.1.1.v201109140754,"org.eclipse.emf.facet.infra.query.core",1331292211814
+started,bundle,org.eclipse.emf.facet.widgets.nattable.instance,0.1.1.v201109140754,"org.eclipse.emf.facet.widgets.nattable.instance",1331292211856
+started,bundle,org.eclipse.papyrus.sysml.table.requirement,0.8.1.v201109161105,"org.eclipse.papyrus.sysml.table.requirement",1331292211889
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.200.v201103170332,"org.eclipse.wst.common.project.facet.core",1331292212052
+started,bundle,org.eclipse.papyrus.table.modelexplorer,0.8.1.v201109161105,"org.eclipse.papyrus.table.modelexplorer",1331292212075
+started,bundle,org.eclipse.wst.web,1.1.500.v201104251400,"org.eclipse.wst.web",1331292212185
+started,bundle,org.eclipse.gef,3.7.1.v20110830-1143,"org.eclipse.gef",1331292212295
+started,bundle,com.aptana.filewatcher,3.0.1.1317316381,"com.aptana.filewatcher",1331292212479
+started,bundle,com.aptana.scripting,3.0.0.1327097358,"com.aptana.scripting",1331292212543
+started,bundle,org.eclipse.gmf.runtime.notation,1.5.0.v20110309-2159,"org.eclipse.gmf.runtime.notation",1331292212889
+started,bundle,org.eclipse.papyrus.editor,0.8.1.v201109161105,"org.eclipse.papyrus.editor",1331292212916
+started,bundle,org.eclipse.gmf.runtime.emf.type.core,1.4.0.v20100423-2359,"org.eclipse.gmf.runtime.emf.type.core",1331292213057
+started,bundle,com.aptana.core,3.0.4.1325689477,"com.aptana.core",1331292213093
+started,bundle,com.aptana.theme,3.0.0.1320258654,"com.aptana.theme",1331292213095
+started,bundle,com.aptana.usage,3.0.0.1329151902,"com.aptana.usage",1331292213413
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.actions,1.4.1.v20101221-2230,"org.eclipse.gmf.runtime.diagram.ui.actions",1331292213997
+activated,view,org.eclipse.jdt.ui,3.7.1.r371_v20110824-0800,"org.eclipse.jdt.ui.PackageExplorer",1331292214164
+started,bundle,org.eclipse.ui.navigator,3.5.100.v20110809-2227,"org.eclipse.ui.navigator",1331292214187
+closed,view,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.internal.introview",1331292214239
+started,bundle,org.eclipse.cdt.make.core,7.1.1.201109151620,"org.eclipse.cdt.make.core",1331292218645
+started,bundle,org.eclipse.cdt.managedbuilder.core,8.0.1.201109151620,"org.eclipse.cdt.managedbuilder.core",1331292220032
+started,bundle,org.eclipse.cdt.core,5.3.1.201109151620,"org.eclipse.cdt.core",1331292221342
+started,bundle,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui",1331292224034
+started,bundle,org.eclipse.cdt.codan.core.cxx,1.0.0.201109151620,"org.eclipse.cdt.codan.core.cxx",1331292224034
+started,bundle,org.eclipse.cdt.make.ui,7.1.1.201109151620,"org.eclipse.cdt.make.ui",1331292224065
+started,bundle,org.eclipse.cdt.codan.core,2.0.0.201109151620,"org.eclipse.cdt.codan.core",1331292224076
+started,bundle,org.eclipse.cdt.codan.checkers,1.0.0.201109151620,"org.eclipse.cdt.codan.checkers",1331292224311
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292225710
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/coffeescript.ruble"".",1331292225766
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292225976
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/css.ruble"".",1331292226016
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292226016
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292226081
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/cucumber.ruble"".",1331292226128
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292226190
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/haml.ruble"".",1331292226221
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292226327
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/html.ruble"".",1331292226364
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292226460
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/js.ruble"".",1331292226493
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292226567
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/php.ruble"".",1331292226595
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292226751
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/ruby.ruble"".",1331292226788
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292226853
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/sass.ruble"".",1331292226907
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292227035
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/xml.ruble"".",1331292227099
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292227145
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/shell-script.ruble"".",1331292227166
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292227228
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/yaml.ruble"".",1331292227249
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292227844
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292229728
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292232785
+closed,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292232942
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1331292233770
+started,bundle,org.eclipse.compare,3.5.201.R37x_v20110817-0800,"org.eclipse.compare",1331292233789
+started,bundle,org.eclipse.papyrus.sasheditor.di,0.8.1.v201109161105,"org.eclipse.papyrus.sasheditor.di",1331292233928
+error,log,,,"Unexpected Error",1331292233969
+error,log,,,"Unexpected Error",1331292233970
+started,bundle,org.eclipse.papyrus.core.adaptor.gmf,0.8.1.v201109161105,"org.eclipse.papyrus.core.adaptor.gmf",1331292234003
+started,bundle,org.eclipse.draw2d,3.7.1.v20110830-1143,"org.eclipse.draw2d",1331292234056
+started,bundle,org.eclipse.emf.workspace,1.5.1.v20110823-1800,"org.eclipse.emf.workspace",1331292234172
+started,bundle,org.eclipse.gmf.runtime.emf.commands.core,1.4.0.v20100423-2359,"org.eclipse.gmf.runtime.emf.commands.core",1331292234173
+started,bundle,org.eclipse.papyrus.validation,0.8.1.v201109161105,"org.eclipse.papyrus.validation",1331292234174
+started,bundle,org.eclipse.emf.ecore.change,2.7.1.v20110829-1916,"org.eclipse.emf.ecore.change",1331292234182
+started,bundle,org.eclipse.papyrus.sysml.service.types,0.8.1.v201109161105,"org.eclipse.papyrus.sysml.service.types",1331292234230
+started,bundle,org.eclipse.papyrus.uml.service.types,0.8.1.v201109161105,"org.eclipse.papyrus.uml.service.types",1331292234317
+stopped,bundle,org.eclipse.m2e.logback.configuration,1.0.100.20110804-1717,"org.eclipse.m2e.logback.configuration",1331292234767
+stopped,bundle,org.eclipse.m2e.discovery,1.0.100.20110804-1717,"org.eclipse.m2e.discovery",1331292234770
+stopped,bundle,org.eclipse.m2e.refactoring,1.0.100.20110804-1717,"org.eclipse.m2e.refactoring",1331292234779
+stopped,bundle,org.eclipse.m2e.editor,1.0.100.20110804-1717,"org.eclipse.m2e.editor",1331292234901
+stopped,bundle,org.eclipse.m2e.editor.xml,1.0.100.20110804-1717,"org.eclipse.m2e.editor.xml",1331292235002
+stopped,bundle,org.eclipse.m2e.jdt,1.0.100.20110804-1717,"org.eclipse.m2e.jdt",1331292235059
+stopped,bundle,org.eclipse.m2e.launching,1.0.100.20110804-1717,"org.eclipse.m2e.launching",1331292235140
+stopped,bundle,org.eclipse.m2e.usagedata,1.0.100.20110804-1717,"org.eclipse.m2e.usagedata",1331292235140
+stopped,bundle,org.eclipse.jst.j2ee.xdoclet.runtime,1.1.300.v201004280700,"org.eclipse.jst.j2ee.xdoclet.runtime",1331292235248
+stopped,bundle,org.eclipse.jst.j2ee.ejb.annotations.xdoclet,1.2.200.v201103302125,"org.eclipse.jst.j2ee.ejb.annotations.xdoclet",1331292235316
+stopped,bundle,edu.umd.cs.findbugs.plugin.eclipse,2.0.0.20111221,"edu.umd.cs.findbugs.plugin.eclipse",1331292235316
+stopped,bundle,org.eclipse.cdt,8.0.0.201109151620,"org.eclipse.cdt",1331292235402
+stopped,bundle,org.eclipse.cdt.doc.user,5.1.0.201109151620,"org.eclipse.cdt.doc.user",1331292235466
+stopped,bundle,org.eclipse.papyrus.collaborationuse.editor.xtext.ui,0.8.1.v201109161105,"org.eclipse.papyrus.collaborationuse.editor.xtext.ui",1331292235545
+stopped,bundle,org.eclipse.papyrus.diagram.activity,0.8.1.v201109161105,"org.eclipse.papyrus.diagram.activity",1331292235546
+stopped,bundle,org.eclipse.papyrus.sysml.diagram.blockdefinition,0.8.1.v201109161105,"org.eclipse.papyrus.sysml.diagram.blockdefinition",1331292235568
+stopped,bundle,org.eclipse.papyrus.sysml.diagram.requirement,0.8.1.v201109161105,"org.eclipse.papyrus.sysml.diagram.requirement",1331292235593
+stopped,bundle,org.eclipse.papyrus.uml.diagram.pkg,0.8.1.v201109161105,"org.eclipse.papyrus.uml.diagram.pkg",1331292235617
+stopped,bundle,org.eclipse.papyrus.diagram.clazz,0.8.1.v201109161105,"org.eclipse.papyrus.diagram.clazz",1331292235666
+stopped,bundle,org.eclipse.papyrus.diagram.common.groups,0.8.1.v201109161105,"org.eclipse.papyrus.diagram.common.groups",1331292235752
+stopped,bundle,org.eclipse.papyrus.diagram.communication,0.8.1.v201109161105,"org.eclipse.papyrus.diagram.communication",1331292235825
+stopped,bundle,org.eclipse.papyrus.diagram.component,0.9.0.v201109161105,"org.eclipse.papyrus.diagram.component",1331292235826
+stopped,bundle,org.eclipse.papyrus.sysml.diagram.internalblock,0.8.1.v201109161105,"org.eclipse.papyrus.sysml.diagram.internalblock",1331292235826
+stopped,bundle,org.eclipse.papyrus.diagram.composite,0.8.1.v201109161105,"org.eclipse.papyrus.diagram.composite",1331292235826
+stopped,bundle,org.eclipse.papyrus.diagram.deployment,0.9.0.v201109161105,"org.eclipse.papyrus.diagram.deployment",1331292235826
+stopped,bundle,org.eclipse.papyrus.table.menu,0.8.1.v201109161105,"org.eclipse.papyrus.table.menu",1331292235826
+stopped,bundle,org.eclipse.papyrus.diagram.menu,0.8.1.v201109161105,"org.eclipse.papyrus.diagram.menu",1331292235826

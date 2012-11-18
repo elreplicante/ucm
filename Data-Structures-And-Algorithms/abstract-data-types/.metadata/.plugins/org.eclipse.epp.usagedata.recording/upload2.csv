@@ -1,0 +1,251 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.dltk.launching,3.0.0.v20110423,"org.eclipse.dltk.launching",1331292457838
+started,bundle,org.eclipse.dltk.ui,3.0.1.v20110823,"org.eclipse.dltk.ui",1331292457843
+started,bundle,org.eclipse.papyrus.sysml.modelexplorer,0.8.1.v201109161105,"org.eclipse.papyrus.sysml.modelexplorer",1331292457843
+started,bundle,org.eclipse.papyrus.ui.perspectiveconfiguration,0.8.1.v201109161105,"org.eclipse.papyrus.ui.perspectiveconfiguration",1331292457844
+started,bundle,org.eclipse.cdt.managedbuilder.core,8.0.1.201109151620,"org.eclipse.cdt.managedbuilder.core",1331292457845
+started,bundle,org.eclipse.papyrus.uml.menu,0.8.1.v201109161105,"org.eclipse.papyrus.uml.menu",1331292457846
+started,bundle,org.eclipse.xtext.gmf.glue,0.8.1.v201109161105,"org.eclipse.xtext.gmf.glue",1331292457850
+started,bundle,org.eclipse.wst.common.project.facet.core,1.4.200.v201103170332,"org.eclipse.wst.common.project.facet.core",1331292457859
+started,bundle,org.eclipse.wst.web,1.1.500.v201104251400,"org.eclipse.wst.web",1331292457861
+started,bundle,com.aptana.filewatcher,3.0.1.1317316381,"com.aptana.filewatcher",1331292457871
+started,bundle,com.aptana.scripting,3.0.0.1327097358,"com.aptana.scripting",1331292457871
+started,bundle,com.aptana.core,3.0.4.1325689477,"com.aptana.core",1331292457927
+started,bundle,org.eclipse.cdt.core,5.3.1.201109151620,"org.eclipse.cdt.core",1331292457942
+started,bundle,com.aptana.theme,3.0.0.1320258654,"com.aptana.theme",1331292457942
+started,bundle,com.aptana.usage,3.0.0.1329151902,"com.aptana.usage",1331292457950
+started,bundle,org.eclipse.ui.navigator,3.5.100.v20110809-2227,"org.eclipse.ui.navigator",1331292458010
+started,bundle,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui",1331292458098
+started,bundle,org.eclipse.cdt.codan.core.cxx,1.0.0.201109151620,"org.eclipse.cdt.codan.core.cxx",1331292458099
+started,bundle,org.eclipse.cdt.codan.core,2.0.0.201109151620,"org.eclipse.cdt.codan.core",1331292458138
+started,bundle,org.eclipse.cdt.make.ui,7.1.1.201109151620,"org.eclipse.cdt.make.ui",1331292458139
+started,bundle,org.eclipse.cdt.codan.checkers,1.0.0.201109151620,"org.eclipse.cdt.codan.checkers",1331292458194
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292459786
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/coffeescript.ruble"".",1331292459845
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292460006
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/css.ruble"".",1331292460050
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292460106
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/haml.ruble"".",1331292460152
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292460214
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/cucumber.ruble"".",1331292460253
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292460307
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/js.ruble"".",1331292460358
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292460449
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/html.ruble"".",1331292460480
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292460589
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/php.ruble"".",1331292460640
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292460810
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/shell-script.ruble"".",1331292460838
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292460917
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/sass.ruble"".",1331292460948
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292460997
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/yaml.ruble"".",1331292461023
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292461081
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/ruby.ruble"".",1331292461103
+error,log,,,"(LoadError) no such file to load -- ruble/ui",1331292461161
+error,log,,,"An internal error occurred during: ""Loading bundle: /Applications/eclipse/configuration/org.eclipse.osgi/bundles/1588/1/.cp/bundles/xml.ruble"".",1331292461181
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292461883
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292471529
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292489289
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.import",1331292489328
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.import",1331292489328
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292491801
+started,bundle,org.eclipse.cdt.managedbuilder.ui,8.0.0.201109151620,"org.eclipse.cdt.managedbuilder.ui",1331292495136
+started,bundle,org.eclipse.cdt.managedbuilder.gnu.ui,8.0.1.201109151620,"org.eclipse.cdt.managedbuilder.gnu.ui",1331292495347
+started,bundle,org.eclipse.core.variables,3.2.500.v20110511,"org.eclipse.core.variables",1331292513074
+started,bundle,org.eclipse.cdt.msw.build,1.0.0.201109151620,"org.eclipse.cdt.msw.build",1331292513243
+started,bundle,org.eclipse.jdt.launching,3.6.1.v20110803_r371,"org.eclipse.jdt.launching",1331292514827
+started,bundle,com.vectrace.MercurialEclipse,1.9.1.v201111302231,"com.vectrace.MercurialEclipse",1331292515943
+started,bundle,org.eclipse.jgit,1.2.0.201112221803-r,"org.eclipse.jgit",1331292517438
+started,bundle,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.resources",1331292518181
+started,bundle,org.eclipse.egit.core,1.2.0.201112221803-r,"org.eclipse.egit.core",1331292518486
+started,bundle,org.eclipse.egit.ui,1.2.0.201112221803-r,"org.eclipse.egit.ui",1331292519103
+started,bundle,org.python.pydev.core,2.4.0.2012020116,"org.python.pydev.core",1331292519593
+started,bundle,com.python.pydev.analysis,2.4.0.2012020116,"com.python.pydev.analysis",1331292520531
+started,bundle,org.python.pydev,2.4.0.2012020116,"org.python.pydev",1331292520832
+started,bundle,org.eclipse.papyrus.onefile,0.8.1.v201109161105,"org.eclipse.papyrus.onefile",1331292521210
+started,bundle,org.eclipse.emf.common.ui,2.7.0.v20110913-1156,"org.eclipse.emf.common.ui",1331292522594
+started,bundle,org.eclipse.emf.edit.ui,2.7.0.v20110913-1156,"org.eclipse.emf.edit.ui",1331292522666
+started,bundle,org.eclipse.jst.j2ee.webservice.ui,1.1.500.v201105122000,"org.eclipse.jst.j2ee.webservice.ui",1331292522862
+started,bundle,org.eclipse.wst.common.frameworks,1.2.101.v201107192200,"org.eclipse.wst.common.frameworks",1331292523179
+started,bundle,org.eclipse.wst.common.emf,1.2.100.v201101101900,"org.eclipse.wst.common.emf",1331292523415
+started,bundle,org.eclipse.jem.util,2.1.100.v201103021400,"org.eclipse.jem.util",1331292523693
+started,bundle,org.eclipse.wst.common.emfworkbench.integration,1.2.101.v201107140600,"org.eclipse.wst.common.emfworkbench.integration",1331292523859
+started,bundle,org.eclipse.jst.j2ee.webservice,1.1.400.v201004110600,"org.eclipse.jst.j2ee.webservice",1331292523944
+started,bundle,org.eclipse.jst.jee.ui,1.0.400.v201105122000,"org.eclipse.jst.jee.ui",1331292524782
+started,bundle,org.eclipse.jst.j2ee.ui,1.1.501.v201108231700,"org.eclipse.jst.j2ee.ui",1331292525053
+started,bundle,org.eclipse.jst.j2ee.navigator.ui,1.1.501.v201107261503,"org.eclipse.jst.j2ee.navigator.ui",1331292525157
+started,bundle,org.eclipse.wst.common.core,1.2.0.v200908252030,"org.eclipse.wst.common.core",1331292525330
+started,bundle,org.eclipse.wst.common.modulecore,1.2.101.v201108231700,"org.eclipse.wst.common.modulecore",1331292525333
+started,bundle,org.eclipse.jst.j2ee.core,1.2.101.v201108110300,"org.eclipse.jst.j2ee.core",1331292525380
+started,bundle,org.eclipse.jem,2.0.500.v201104271400,"org.eclipse.jem",1331292525408
+started,bundle,org.eclipse.wst.common.frameworks.ui,1.2.100.v201105122000,"org.eclipse.wst.common.frameworks.ui",1331292525477
+started,bundle,org.eclipse.wst.xml.core,1.1.601.v201108302147,"org.eclipse.wst.xml.core",1331292525491
+started,bundle,org.eclipse.wst.validation,1.2.302.v201107140600,"org.eclipse.wst.validation",1331292525542
+started,bundle,org.eclipse.jst.j2ee,1.1.501.v201108231845,"org.eclipse.jst.j2ee",1331292525771
+started,bundle,org.eclipse.jst.common.project.facet.core,1.4.200.v201103170302,"org.eclipse.jst.common.project.facet.core",1331292525924
+started,bundle,org.eclipse.jst.ws.jaxrs.core,1.0.301.v201108240656,"org.eclipse.jst.ws.jaxrs.core",1331292525986
+opened,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1331292526464
+activated,perspective,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.CPerspective",1331292526549
+error,log,,,"Unable to create menu item ""com.aptana.terminal.commands.openTerminal"", command ""com.aptana.terminal.commands.openTerminal"" not defined",1331292526668
+started,bundle,com.aptana.ui,3.0.3.1325786963,"com.aptana.ui",1331292526730
+error,log,,,"Problems occurred when invoking code from plug-in: ""org.eclipse.ui.workbench"".",1331292526741
+started,bundle,org.eclipse.ltk.ui.refactoring,3.6.0.v20110505-0800,"org.eclipse.ltk.ui.refactoring",1331292526866
+started,bundle,org.eclipse.papyrus.editor,0.8.1.v201109161105,"org.eclipse.papyrus.editor",1331292526894
+started,bundle,org.eclipse.gmf.runtime.notation,1.5.0.v20110309-2159,"org.eclipse.gmf.runtime.notation",1331292526906
+started,bundle,org.eclipse.gmf.runtime.emf.type.core,1.4.0.v20100423-2359,"org.eclipse.gmf.runtime.emf.type.core",1331292526910
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.actions,1.4.1.v20101221-2230,"org.eclipse.gmf.runtime.diagram.ui.actions",1331292526920
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1331292526923
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292527057
+started,bundle,org.eclipse.jst.servlet.ui,1.1.501.v201108220630,"org.eclipse.jst.servlet.ui",1331292527879
+started,bundle,org.eclipse.papyrus.table.instance,0.8.1.v201109161105,"org.eclipse.papyrus.table.instance",1331292528451
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1331292528639
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292530019
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292544084
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1331292544094
+started,bundle,org.gna.eclox.core,0.8.0,"org.gna.eclox.core",1331292544778
+started,bundle,org.eclipse.php.core,3.0.0.v20110516-1100,"org.eclipse.php.core",1331292545128
+started,bundle,org.eclipse.dltk.ruby.core,3.0.0.v20110423,"org.eclipse.dltk.ruby.core",1331292545541
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1331292545869
+started,bundle,org.eclipse.papyrus.export,0.8.1.v201109161105,"org.eclipse.papyrus.export",1331292547414
+started,bundle,org.eclipse.compare.core,3.5.200.I20110208-0800,"org.eclipse.compare.core",1331292549307
+opened,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331292549346
+started,bundle,org.eclipse.papyrus.layouttool,0.8.0.v201109161105,"org.eclipse.papyrus.layouttool",1331292549402
+started,bundle,org.eclipse.papyrus.layouttool.subeditor.gmf,0.8.0.v201109161105,"org.eclipse.papyrus.layouttool.subeditor.gmf",1331292549414
+activated,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331292549539
+started,bundle,org.eclipse.cdt.codan.ui,2.0.0.201109151620,"org.eclipse.cdt.codan.ui",1331292549840
+started,bundle,org.eclipse.cdt.codan.checkers.ui,1.0.0.201109151620,"org.eclipse.cdt.codan.checkers.ui",1331292550081
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.cut",1331292558803
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.paste",1331292561496
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331292562007
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331292568974
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.text.contentAssist.proposals",1331292579613
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331292582497
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1331292610402
+opened,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331292610667
+activated,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331292610722
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331292618896
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331292622176
+activated,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331292623590
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331292628815
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331294780811
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331294787984
+opened,view,org.eclipse.ui.console,3.5.100.v20110511,"org.eclipse.ui.console.ConsoleView",1331294790539
+started,bundle,org.python.pydev.debug,2.4.0.2012020116,"org.python.pydev.debug",1331294791091
+started,bundle,org.eclipse.debug.ui,3.7.101.v20110817_r371,"org.eclipse.debug.ui",1331294791347
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331294791550
+started,bundle,org.eclipse.php.debug.ui,3.0.0.v20110516-1100,"org.eclipse.php.debug.ui",1331294792018
+started,bundle,org.eclipse.wst.sse.ui,1.3.1.v201108191312,"org.eclipse.wst.sse.ui",1331294792121
+started,bundle,org.eclipse.wst.sse.core,1.1.601.v201108151912,"org.eclipse.wst.sse.core",1331294792175
+started,bundle,org.eclipse.php.ui,3.0.0.v20110516-1100,"org.eclipse.php.ui",1331294792196
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331294799767
+started,bundle,org.eclipse.dltk.core.index.sql,3.0.0.v20110423,"org.eclipse.dltk.core.index.sql",1331294800109
+started,bundle,org.eclipse.dltk.core.index.sql.h2,3.0.0.v20110423,"org.eclipse.dltk.core.index.sql.h2",1331294800408
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1331294804816
+opened,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331294805088
+activated,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331294805148
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331294808405
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1331294818591
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1331294819087
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1331294819783
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1331294821709
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1331294821855
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1331294821999
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1331294822142
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331294824611
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331294827930
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331294835943
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1331294844446
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1331294844838
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331294845725
+started,bundle,org.eclipse.mylyn.java.tasks,3.6.0.v20110608-1400,"org.eclipse.mylyn.java.tasks",1331294847428
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331294848703
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331294856627
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1331294859561
+error,log,,,"Unable to create menu item ""com.aptana.terminal.commands.openTerminal"", command ""com.aptana.terminal.commands.openTerminal"" not defined",1331294861883
+started,bundle,org.eclipse.pde.core,3.7.1.v20110822-2108,"org.eclipse.pde.core",1331294862131
+started,bundle,org.eclipse.compare,3.5.201.R37x_v20110817-0800,"org.eclipse.compare",1331294862217
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331294864695
+started,bundle,org.eclipse.papyrus.ui.resources,0.8.1.v201109161105,"org.eclipse.papyrus.ui.resources",1331294866166
+started,bundle,org.eclipse.dltk.core.manipulation,3.0.0.v20110609-1525,"org.eclipse.dltk.core.manipulation",1331294867434
+started,bundle,org.eclipse.wst.jsdt.manipulation,1.0.300.v201104272153,"org.eclipse.wst.jsdt.manipulation",1331294867481
+started,bundle,org.eclipse.wst.jsdt.core,1.1.101.v201108151912,"org.eclipse.wst.jsdt.core",1331294867685
+started,bundle,org.eclipse.wst.jsdt.ui,1.1.101.v201108151912,"org.eclipse.wst.jsdt.ui",1331294867779
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331294868524
+started,bundle,org.eclipse.gmf.runtime.diagram.ui.resources.editor,1.4.1.v20101119-2230,"org.eclipse.gmf.runtime.diagram.ui.resources.editor",1331294868530
+started,bundle,org.eclipse.papyrus.core.adaptor.gmf,0.8.1.v201109161105,"org.eclipse.papyrus.core.adaptor.gmf",1331294868530
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110505-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1331294868594
+closed,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331294868675
+activated,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331294869917
+activated,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331294912850
+activated,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331294915993
+closed,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331294915993
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331295004855
+started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.200.v20110510,"org.eclipse.equinox.p2.garbagecollector",1331295088046
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331295178410
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331295179111
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331297606053
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1331297688142
+activated,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331297692544
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331297693847
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331297701580
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1331297703761
+activated,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331297704083
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1331297740488
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331297740991
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331297745166
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331297745269
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1331297750514
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331297754680
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1331297789526
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331297799648
+started,bundle,org.eclipse.cdt.debug.core,7.1.0.201109151620,"org.eclipse.cdt.debug.core",1331297802003
+started,bundle,org.eclipse.cdt.debug.ui,7.1.1.201109151620,"org.eclipse.cdt.debug.ui",1331297802016
+started,bundle,org.eclipse.wst.server.core,1.1.303.v20110816_1717,"org.eclipse.wst.server.core",1331297802210
+started,bundle,org.eclipse.wst.server.ui,1.1.306.v20110823_1704,"org.eclipse.wst.server.ui",1331297802248
+started,bundle,org.eclipse.php.server.core,3.0.0.v20110516-1100,"org.eclipse.php.server.core",1331297802286
+started,bundle,org.eclipse.wst.jsdt.debug.rhino.ui,1.0.0.v201103232243,"org.eclipse.wst.jsdt.debug.rhino.ui",1331297802511
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331297803111
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331297803195
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331297832276
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331297835291
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331297835371
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331297984555
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331297993954
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1331298024636
+opened,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331298024933
+activated,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331298024987
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.I20110421-1800,"org.eclipse.ui.navigator.ProjectExplorer",1331298027656
+error,log,,,"Unable to create menu item ""com.aptana.terminal.commands.openTerminal"", command ""com.aptana.terminal.commands.openTerminal"" not defined",1331298027899
+started,bundle,org.python.pydev.parser,2.4.0.2012020116,"org.python.pydev.parser",1331298029670
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331298029747
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331298031724
+executed,command,org.eclipse.ltk.ui.refactoring,3.6.0.v20110505-0800,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1331298031777
+closed,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331298031826
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.saveAll",1331298059412
+activated,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331298060050
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331298061351
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331298061405
+activated,view,org.eclipse.ui.ide,3.7.0.v20110809-1737,"org.eclipse.ui.views.ProblemView",1331298065641
+opened,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331298065987
+activated,editor,org.eclipse.cdt.ui,5.3.1.201109151620,"org.eclipse.cdt.ui.editor.CEditor",1331298066031
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331298073031
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331298075424
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331298075494
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.delete",1331298087768
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331298088600
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1331298117362
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.edit.undo",1331298118436
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331298119997
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331298134596
+executed,command,org.eclipse.ui,3.7.0.I20110602-0100,"org.eclipse.ui.file.save",1331298140082
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331298176105
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331301147521
+deactivated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331301149541
+activated,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331301150832
+closed,workbench,org.eclipse.ui.workbench,3.7.0.I20110519-0100,"",1331301151070
+started,bundle,org.eclipse.papyrus.sasheditor.di,0.8.1.v201109161105,"org.eclipse.papyrus.sasheditor.di",1331301151736
+error,log,,,"Unexpected Error",1331301151740
+error,log,,,"Unexpected Error",1331301151742
+started,bundle,org.eclipse.draw2d,3.7.1.v20110830-1143,"org.eclipse.draw2d",1331301151750
+started,bundle,org.eclipse.emf.workspace,1.5.1.v20110823-1800,"org.eclipse.emf.workspace",1331301151770

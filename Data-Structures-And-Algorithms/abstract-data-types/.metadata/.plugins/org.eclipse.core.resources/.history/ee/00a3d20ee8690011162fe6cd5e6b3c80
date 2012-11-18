@@ -1,0 +1,83 @@
+
+
+#ifndef NODO
+  #define NODO
+#include <cstring>
+template <class E>  class Nodo {
+
+	private:
+		E _dato;
+		Nodo<E>* _sig;
+
+		Nodo (const Nodo<E>* sig, E dato){
+			_sig = sig;
+			_dato = dato;
+		}
+
+		Nodo() {
+			_sig = NULL;
+		}
+
+		Nodo(const E dato) {
+			_sig = NULL;
+			_dato = dato;
+		}
+
+		friend class Cola;
+};
+
+#endif
+
+
+#ifndef COLA
+  #define COLA // Define la cola
+using namespace std;
+
+
+
+template <class E> class Cola {
+
+	private:
+		Nodo<E>* _ultimo;
+		Nodo<E>* _primero;
+
+
+	public:
+
+		Cola() {
+
+			_primero = NULL;
+			_ultimo = NULL;
+	}
+
+		bool isEmpty() {
+			return _primero == NULL && _ultimo == NULL;
+		}
+
+		void encolar(const E d) {
+			Nodo<E>* aux;
+			
+			if (_primero == NULL) {
+				_primero -> aux;
+			}
+			else {
+			_ultimo -> _sig = aux;
+			}
+			
+			_ultimo = aux;
+		}
+
+		void desencolar(){
+			Nodo<E> aux* = _primero;
+			
+			_primero = _primero -> _siguiente;
+			if (_primero == NULL) {
+				_ultimo = NULL;
+			}
+			
+			delete aux;
+		}
+		
+};
+
+#endif

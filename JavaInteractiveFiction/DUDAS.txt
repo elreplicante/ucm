@@ -1,0 +1,4 @@
+1.- MVC modelo pasivo? El modelo no notifica a las vistas que se actualizen sino que lo hace por medio de los observers y estos notifican las vistas.  ¿Por qué esta decisión de diseño?
+2.- Clase observer: Las clases del modelo que contienen información que se mostrará en las vistas extienden esta clase. Se usa como template para añadir un observer específico (GameObserver, PlayerOberserver, MapObserver)
+3.- Estos tipos son interfaces.  Las vistas las implementan según necesiten ser notificadas por cambios en el modelo.  La consola implementa todos, GUI implementa sólo el game.
+4.- Un controlador por vista?  ¿Por qué?  ¿El game centraliza del alguna manera  el modelo?

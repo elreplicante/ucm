@@ -1,0 +1,28 @@
+<sequence-diagram version="1.0.9" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="tp.pr5.Door" project="JavaInteractiveFiction" 
+    file="/JavaInteractiveFiction/src/tp/pr5/Door.java" binary="false" label="door" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="150" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="56" x="5" y="99"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="tp.pr5.Game" project="JavaInteractiveFiction" 
+    file="/JavaInteractiveFiction/src/tp/pr5/Game.java" binary="false" label="game" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="150" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="62" x="65" y="120"/>    
+    </execution>  
+  </object>  
+  <object id="6" language="java" name="tp.pr5.Map" project="JavaInteractiveFiction" 
+    file="/JavaInteractiveFiction/src/tp/pr5/Map.java" binary="false" label="map" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="150" y="0"/>  
+  </object>  
+  <object id="7" language="java" name="tp.pr5.Player" project="JavaInteractiveFiction" 
+    file="/JavaInteractiveFiction/src/tp/pr5/Player.java" binary="false" label="player" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="150" y="0"/>  
+  </object>  
+  <message id="3">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>
+</sequence-diagram>

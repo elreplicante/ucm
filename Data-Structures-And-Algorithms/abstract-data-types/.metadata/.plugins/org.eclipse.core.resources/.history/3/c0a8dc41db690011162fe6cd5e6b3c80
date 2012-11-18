@@ -1,0 +1,50 @@
+/*
+ * ListaEstatica.cpp
+ *
+ *  Created on: 08/03/2012
+ *      Author: repli
+ */
+
+#ifndef LISTAESTATICA
+#define LISTAESTATICA
+#include <cstring>
+#include <assert.h>
+
+template<class E> class ListaEstatica {
+
+private:
+
+	int _dimension;
+	int _numElementos;
+	E _array[];
+
+public:
+	ListaEstatica(int dimension) {
+		_dimension = dimension;
+		_array = new (E[dimension]);
+		_numElementos = 0;
+		for (int i = 0; i < dimension; ++i) {
+			_array[i] = NULL;
+
+		}
+	}
+
+	void ListaEstatica::anadirIzquierda(const E elemento) {
+
+		assert(this -> _numElementos < this -> _dimension);
+
+		for (int i = this -> _numElementos - 1 ; i >= 0; i--) {
+					this -> _array[i + 1] = this -> _array[i];
+				}
+		this -> _array[0] = elemento;
+
+		//return;
+
+
+	}
+
+	virtual ~ListaEstatica();
+
+};
+
+#endif /* LISTAESTATICA_H_ */

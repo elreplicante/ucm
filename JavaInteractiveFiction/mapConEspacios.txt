@@ -1,0 +1,19 @@
+BeginMap
+BeginRooms
+room 0 Entrada "Estamos en la entrada. Comienza la aventura." noexit
+room 1 Pasillo "Esto es un pasillo." noexit
+room 2 Salon "Hemos llegado al salon. Al Norte parece que hay una puerta." noexit
+room 3 Salida "Llegamos a la salida" exit
+EndRooms
+BeginDoors
+door 0 bidirectional room 0 south room 1 open
+door 1 directional room 1 east room 2 open
+door 2 directional room 2 north room 3 closed
+EndDoors
+BeginItems
+food 0 Agua "Botella de agua, entran tres tragos" 10 3 room 0
+food 1 Carne "Parece carne, pero no huele igual..." -50 1 room 0
+key 2 Llave "Una llave brillante" door 2 room 1
+valuable 3 moneda "Moneda brillante, parece de oro." 30 room 2
+EndItems
+EndMap

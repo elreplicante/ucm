@@ -1,0 +1,10 @@
+  #ifndef E
+  #define E // Define la cola
+
+#include <iostream>
+using namespace std;
+
+class E {
+};
+
+#endif
