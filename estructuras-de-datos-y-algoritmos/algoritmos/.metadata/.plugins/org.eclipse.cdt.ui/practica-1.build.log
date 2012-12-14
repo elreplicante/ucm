@@ -1,0 +1,19 @@
+11:53:23 **** Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../ordenacion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ordenacion.d" -MT"ordenacion.d" -o "ordenacion.o" "../ordenacion.cpp"
+Finished building: ../ordenacion.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./ordenacion.o   
+Undefined symbols for architecture x86_64:
+  "_main", referenced from:
+      start in crt1.10.6.o
+ld: symbol(s) not found for architecture x86_64
+collect2: ld returned 1 exit status
+make: *** [practica-1] Error 1
+
+11:53:25 Build Finished (took 1s.774ms)
+
