@@ -1,5 +1,21 @@
-11:53:23 **** Build of configuration Debug for project practica-1 ****
+Info: Nothing to build for practica-1
+Info: Nothing to build for practica-1
+13:17:50 **** Clean-only build of configuration Debug for project practica-1 ****
+make clean 
+rm -rf  ./aux.o ./ordenacion.o  ./aux.d ./ordenacion.d  practica-1
+ 
+13:17:53 **** Build of configuration Debug for project practica-1 ****
 make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+Finished building: ../aux.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
 Building file: ../ordenacion.cpp
 Invoking: GCC C++ Compiler
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ordenacion.d" -MT"ordenacion.d" -o "ordenacion.o" "../ordenacion.cpp"
@@ -7,10 +23,501 @@ Finished building: ../ordenacion.cpp
  
 Building target: practica-1
 Invoking: MacOS X C++ Linker
-g++  -o "practica-1"  ./ordenacion.o   
-Undefined symbols for architecture x86_64:
-  "_main", referenced from:
-      start in crt1.10.6.o
-ld: symbol(s) not found for architecture x86_64
-collect2: ld returned 1 exit status
-make: *** [practica-1] Error 1
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+13:18:25 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+13:19:43 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+13:21:36 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+13:22:10 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+13:22:41 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+13:23:06 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+13:24:00 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+Finished building: ../aux.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+13:24:08 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+13:24:58 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+Finished building: ../aux.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+13:25:09 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+13:26:23 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+Finished building: ../aux.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+13:31:52 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function 'int main()':
+../main.cpp:37: error: redeclaration of 'clock_t initalTime'
+../main.cpp:20: error: 'clock_t initalTime' previously declared here
+../main.cpp:39: error: redeclaration of 'clock_t finalTime'
+../main.cpp:23: error: 'clock_t finalTime' previously declared here
+../main.cpp:40: error: redeclaration of 'float time'
+../main.cpp:24: error: 'float time' previously declared here
+make: *** [main.o] Error 1
+13:32:23 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+13:32:26 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+13:33:31 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+13:34:08 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+13:34:35 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+13:35:09 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+13:35:31 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+14:02:07 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+../aux.cpp: In function 'void generateInsertionSortTime(std::ofstream&, int*, int)':
+../aux.cpp:73: error: 'first' was not declared in this scope
+../aux.cpp:74: error: 'finalTime' was not declared in this scope
+make: *** [aux.o] Error 1
+14:02:17 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+../aux.cpp: In function 'void generateInsertionSortTime(std::ofstream&, int*, int)':
+../aux.cpp:74: error: 'finalTime' was not declared in this scope
+make: *** [aux.o] Error 1
+14:02:33 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+../aux.cpp: In function 'void generateInsertionSortTime(std::ofstream&, int*, int)':
+../aux.cpp:75: error: assignment of function 'time_t time(time_t*)'
+../aux.cpp:75: error: cannot convert 'float' to 'time_t ()(time_t*)' in assignment
+make: *** [aux.o] Error 1
+14:02:44 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+../aux.cpp: In function 'void generateInsertionSortTime(std::ofstream&, int*, int)':
+../aux.cpp:75: warning: unused variable 'time'
+Finished building: ../aux.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function 'int main()':
+../main.cpp:34: error: expected unqualified-id before '[' token
+../main.cpp:28: warning: unused variable 'fourth'
+make: *** [main.o] Error 1
+14:03:30 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+../aux.cpp: In function 'void generateInsertionSortTime(std::ofstream&, int*, int)':
+../aux.cpp:76: error: no match for 'operator<<' in 'file << n'
+make: *** [aux.o] Error 1
+14:05:36 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+../aux.cpp: In function 'void generateInsertionSortTime(std::ofstream&, int*, int)':
+../aux.cpp:76: error: no match for 'operator<<' in 'file << n'
+make: *** [aux.o] Error 1
+14:08:06 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+../aux.cpp: In function 'void generateInsertionSortTime(std::ofstream&, int*, int)':
+../aux.cpp:76: error: no match for 'operator>>' in 'file >> n'
+../aux.cpp:77: error: no match for 'operator<<' in 'file << " "'
+make: *** [aux.o] Error 1
+14:08:57 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+../aux.cpp: In function 'void generateInsertionSortTime(std::ofstream&, int*, int)':
+../aux.cpp:76: error: expected `;' before 'n'
+../aux.cpp:76: warning: statement has no effect
+make: *** [aux.o] Error 1
+14:09:07 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+Finished building: ../aux.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function 'int main()':
+../main.cpp:28: warning: unused variable 'fourth'
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+14:09:24 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function 'int main()':
+../main.cpp:28: warning: unused variable 'fourth'
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+14:10:36 **** Clean-only build of configuration Debug for project practica-1 ****
+make clean 
+rm -rf  ./aux.o ./main.o ./ordenacion.o  ./aux.d ./main.d ./ordenacion.d  practica-1
+ 
+14:10:39 **** Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+Finished building: ../aux.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function 'int main()':
+../main.cpp:28: warning: unused variable 'fourth'
+Finished building: ../main.cpp
+ 
+Building file: ../ordenacion.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"ordenacion.d" -MT"ordenacion.d" -o "ordenacion.o" "../ordenacion.cpp"
+Finished building: ../ordenacion.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:01:13 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+15:01:33 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function 'int main()':
+../main.cpp:28: warning: unused variable 'fourth'
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:01:44 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+15:02:33 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+15:05:47 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function 'int main()':
+../main.cpp:28: warning: unused variable 'fourth'
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:05:52 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+15:07:17 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+15:08:49 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function 'int main()':
+../main.cpp:28: warning: unused variable 'fourth'
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:10:11 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+../main.cpp: In function 'int main()':
+../main.cpp:28: warning: unused variable 'fourth'
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:18:13 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:19:08 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+15:19:46 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:23:19 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:30:18 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:32:15 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+Finished building: ../aux.cpp
+ 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:33:54 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+Finished building: ../aux.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:34:19 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+Finished building: ../aux.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:35:06 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../aux.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"aux.d" -MT"aux.d" -o "aux.o" "../aux.cpp"
+Finished building: ../aux.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 
+15:35:10 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+15:36:00 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+15:36:24 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+make: Nothing to be done for `all'.
+15:39:19 **** Incremental Build of configuration Debug for project practica-1 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.d" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: practica-1
+Invoking: MacOS X C++ Linker
+g++  -o "practica-1"  ./aux.o ./main.o ./ordenacion.o   
+Finished building target: practica-1
+ 

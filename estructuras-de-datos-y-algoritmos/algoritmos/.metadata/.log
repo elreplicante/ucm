@@ -1072,3 +1072,119 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2012-12-14 12:23:28.457
+!MESSAGE Registering: com.google.appengine.eclipse.sdkbundle_1.7.3
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2012-12-14 12:23:29.734
+!MESSAGE Registering: com.google.gwt.eclipse.sdkbundle_2.5.0.v201211121240-rel-r42
+
+!ENTRY org.eclipse.jface 2 0 2012-12-14 12:53:00.282
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-14 12:53:00.282
+!MESSAGE A conflict occurred for COMMAND+T:
+Binding(COMMAND+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.quick.type.hierarchy,Quick Type Hierarchy,
+		Shows quick type hierarchy,
+		Category(org.eclipse.cdt.ui.category.source,C/C++ Source,C/C++ Source Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@9076803,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(COMMAND+T,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.toggleMemoryMonitorsPane,Toggle Memory Monitors Pane,
+		Toggle visibility of the Memory Monitors Pane,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@453da196,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.memoryview,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-12-14 12:53:00.282
+!MESSAGE A conflict occurred for ALT+COMMAND+M:
+Binding(ALT+COMMAND+M,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.addMemoryMonitor,Add Memory Block,
+		Add Memory block,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.MakeHandlersGo@513ba25d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.memoryview,,,system)
+Binding(ALT+COMMAND+M,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.extract.method,Extract Method,
+		Extract a set of statements or an expression into a new method and use the new method,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.MakeHandlersGo@2220b155,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+M,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.refactor.extract.function,Extract Function - Refactoring ,
+		Extract a function for the selected list of expressions or statements,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.MakeHandlersGo@105a54f4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,cocoa,system)
+
+!ENTRY org.eclipse.debug.core 4 125 2012-12-14 13:23:03.148
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: close error
+	at org.eclipse.cdt.utils.pty.PTYOutputStream.close(PTYOutputStream.java:74)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:128)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:99)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.debug.core 4 125 2012-12-14 13:23:58.636
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: close error
+	at org.eclipse.cdt.utils.pty.PTYOutputStream.close(PTYOutputStream.java:74)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:128)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:99)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.debug.core 4 125 2012-12-14 13:24:54.264
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: close error
+	at org.eclipse.cdt.utils.pty.PTYOutputStream.close(PTYOutputStream.java:74)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:128)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:99)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.debug.core 4 125 2012-12-14 13:25:46.407
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: close error
+	at org.eclipse.cdt.utils.pty.PTYOutputStream.close(PTYOutputStream.java:74)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:128)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:99)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.debug.core 4 125 2012-12-14 15:07:12.061
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: close error
+	at org.eclipse.cdt.utils.pty.PTYOutputStream.close(PTYOutputStream.java:74)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:128)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:99)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.debug.core 4 125 2012-12-14 15:08:45.928
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: close error
+	at org.eclipse.cdt.utils.pty.PTYOutputStream.close(PTYOutputStream.java:74)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:128)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:99)
+	at java.lang.Thread.run(Thread.java:722)
+
+!ENTRY org.eclipse.debug.core 4 125 2012-12-14 15:11:31.478
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: close error
+	at org.eclipse.cdt.utils.pty.PTYOutputStream.close(PTYOutputStream.java:74)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:128)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:99)
+	at java.lang.Thread.run(Thread.java:722)

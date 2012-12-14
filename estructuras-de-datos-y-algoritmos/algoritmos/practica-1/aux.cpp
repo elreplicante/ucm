@@ -1,8 +1,25 @@
+#include "aux.h"
+
 void createRandomArray(int V[], int n) {
+	srand(time(NULL));
+	for (int i = 0; i < n; i++) {
+				V[i] = rand() % 1000;
+		}
 }
 
 void copyArray(int V[], int W[], int n) {
+	for (int i = 0; i < n; i++) {
+			W[i] = V[i];
+	}
 }
+
+bool checkSameLength(int V[], int W[]) {
+	int vElements = sizeof(V) / sizeof(int);
+	int wElements = sizeof(W) / sizeof(int);
+
+	return vElements == wElements;
+}
+
 
 bool checkArrayEquality(int V[], int W[], int n) {
 	bool equals;
@@ -22,27 +39,45 @@ bool checkArrayEquality(int V[], int W[], int n) {
 		}
 	}
 
-
 	return equals;
-
 
 }
 
 bool checkIsOrdered(int V[], int n) {
-}
-/*
- * aux.cpp
- *
- *  Created on: 14/12/2012
- *      Author: repli
- */
+	bool ordered;
+	int i = n - 1;
+	while (i > 0 && V[i] >= V[i - 1]) {
+		i--;
+	}
 
-bool checkSameLength(int V[], int W[]) {
-	int vElements = sizeof(V) / sizeof(int);
-	int wElements = sizeof(W) / sizeof(int);
+	if (i == 0) {
+		ordered = true;
+	} else {
+		ordered = false;
+	}
 
-	return vElements == wElements;
+	return ordered;
 }
+
+void printArrayContents(int V[], int n) {
+	cout << '(';
+	for (int i = 0; i < n; i++) {
+		cout << V[i] << ", ";
+	}
+	cout << ')' << endl;
+}
+
+
+void generateInsertionSortTime(ofstream &file, int V[], int n) {
+	clock_t initalTime = clock();
+	insertionSort(V, n);
+	clock_t finalTime = clock();
+	float time = ((float) (finalTime - initalTime)) / CLOCKS_PER_SEC;
+	file << setprecision(20) << fixed << n << " " << time << "\n";
+
+}
+
+
 
 
 

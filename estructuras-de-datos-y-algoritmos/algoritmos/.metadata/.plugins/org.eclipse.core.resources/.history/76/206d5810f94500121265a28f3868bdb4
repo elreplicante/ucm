@@ -1,0 +1,38 @@
+/*
+ * main.cpp
+ *
+ *  Created on: 14/12/2012
+ *      Author: repli
+ */
+
+#include "test.h"
+#include "ordenacion.h"
+
+const int TINY = 3;
+const int SMALL = 1250;
+const int MEDIUM = 2500;
+const int BIG = 5000;
+const int HUGE = 10000;
+
+int getProblemSize() {
+	int problemSize;
+	cout << "Enter the problem size:";
+	cin >> problemSize;
+	return problemSize;
+}
+
+int main() {
+
+	int problemSize = getProblemSize();
+	ofstream file("supu.txt");
+
+	for (int i = 1; i < problemSize; i++) {
+		int V[i];
+		generateArray(V, i);
+		generateInsertionSortTime(file, V, i);
+	}
+
+	file.close();
+
+	return 0;
+}

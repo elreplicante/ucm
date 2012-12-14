@@ -1,0 +1,75 @@
+#include "aux.h"
+
+void createRandomArray(int V[], int n) {
+	srand(time(NULL));
+	for (int i = 0; i < n; i++) {
+				V[i] = rand() % 1000;
+		}
+}
+
+void copyArray(int V[], int W[], int n) {
+	for (int i = 0; i < n; i++) {
+			W[i] = V[i];
+	}
+}
+
+bool checkSameLength(int V[], int W[]) {
+	int vElements = sizeof(V) / sizeof(int);
+	int wElements = sizeof(W) / sizeof(int);
+
+	return vElements == wElements;
+}
+
+
+bool checkArrayEquality(int V[], int W[], int n) {
+	bool equals;
+	if (!checkSameLength(V, W)) {
+		equals = false;
+	} else {
+		int i = 0;
+		while(V[i] == W[i] && i < n) {
+
+			i++;
+		}
+
+		if(i == n - 1) {
+			equals = true;
+		} else {
+			equals = false;
+		}
+	}
+
+	return equals;
+
+}
+
+bool checkIsOrdered(int V[], int n) {
+	bool ordered;
+	int i = n - 1;
+	while (i > 0 && V[i] >= V[i - 1]) {
+		i--;
+	}
+
+	if (i == 1) {
+		ordered = true;
+	} else {
+		ordered = false;
+	}
+
+	return ordered;
+}
+
+void printArrayContents(int V[], int n) {
+	cout << '(';
+	for (int i = 0; i < n; i++) {
+		cout << V[i] << ", ";
+	}
+	cout << ')' << endl;
+}
+
+
+
+
+
+
+
