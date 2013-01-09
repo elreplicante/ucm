@@ -18,14 +18,15 @@ int division(int a, int b) {
 }
 
 int main() {
-	Pareja<int> *pareja = new Pareja<int>(5, 6);
+
+//	Pareja<int> pareja = Pareja<int>(5, 8);
 	try {
 		cout << division(5, 5) << endl;
 	// 	cout << division(5, 0);
 		cout << division(25, 5) << endl;
-		int max = pareja->getMax();
-		cout << max;
-		delete pareja;
+
+
+
 	} catch (const EDivisionPorCero &e) {
 		cout << "Division por cero" << endl;
 	}

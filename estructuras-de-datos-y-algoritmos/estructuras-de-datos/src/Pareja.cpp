@@ -22,11 +22,9 @@ T Pareja<T>::segundo() const {
 
 template<class T>
 T Pareja<T>::getMax() const{
-	if (_a > _b) {
-		return _a;
-	} else {
-		return _b;
-	}
+	T result;
+	result = (_a > _b) ? _a : _b;
+	return result;
 }
 
 template<class T>

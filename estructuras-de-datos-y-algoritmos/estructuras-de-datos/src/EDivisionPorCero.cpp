@@ -7,7 +7,6 @@
 
 #include "../include/EDivisionPorCero.h"
 
-
 EDivisionPorCero::EDivisionPorCero() {
 	// TODO Auto-generated constructor stub
 
@@ -16,5 +15,8 @@ EDivisionPorCero::EDivisionPorCero() {
 EDivisionPorCero::~EDivisionPorCero() {
 	// TODO Auto-generated destructor stub
 }
+
+
+
 
 

@@ -21,8 +21,8 @@
 							<builder buildPath="${workspace_loc:/estructuras-de-datos/Debug}" id="cdt.managedbuild.target.gnu.builder.macosx.exe.debug.1809617985" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.macosx.exe.debug"/>
 							<tool id="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug.1025924855" name="MacOS X C Linker" superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.exe.debug"/>
 							<tool command="g++" commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}" id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug.1718961482" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.exe.debug">
-								<option id="macosx.cpp.link.option.paths.1154435464" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths" valueType="libPaths"/>
-								<option id="macosx.cpp.link.option.libs.2028231449" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs" valueType="libs"/>
+								<option id="macosx.cpp.link.option.paths.1154435464" name="Library search path (-L)" superClass="macosx.cpp.link.option.paths"/>
+								<option id="macosx.cpp.link.option.libs.2028231449" name="Libraries (-l)" superClass="macosx.cpp.link.option.libs"/>
 								<inputType id="cdt.managedbuild.tool.macosx.cpp.linker.input.387381633" superClass="cdt.managedbuild.tool.macosx.cpp.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -44,6 +44,12 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.macosx.exe.debug.45945676.838521684" name="Pareja.cpp" rcbsApplicability="disable" resourcePath="src/Pareja.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.275767143.1105877331">
+						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.275767143.1105877331" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.275767143">
+							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1368434003" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+						</tool>
+					</fileInfo>
+					<fileInfo id="cdt.managedbuild.config.gnu.macosx.exe.debug.45945676.1259746036" name="Pareja.h" rcbsApplicability="disable" resourcePath="include/Pareja.h" toolsToInvoke=""/>
 					<sourceEntries>
 						<entry excluding="lineales/PilaEstatica.cpp|lineales/PilaDinamica.cpp|lineales/DobleCola.cpp|lineales/ColaEstatica.cpp|lineales/ColaDinamica.cpp|include|src|domino.cpp|nQueens.cpp|combinacionesLetras.cpp|laberinto.cpp|moreQueens.cpp|Nodo.cpp|ListaDinamica.cpp|ArbolBinario.cpp|nodo.cpp|Monticulo.cpp|mochila.cpp|HashTable.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
 						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>

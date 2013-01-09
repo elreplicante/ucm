@@ -10,12 +10,10 @@
 
 #include "Excepcion.h"
 
-
 class EDivisionPorCero: public Excepcion {
 public:
 	EDivisionPorCero();
 	virtual ~EDivisionPorCero();
 };
-
 
 #endif /* EDIVISIONPORCERO_H_ */
