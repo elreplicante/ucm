@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?fileVersion 4.0.0?>
-
-<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
 	<storageModule moduleId="org.eclipse.cdt.core.settings">
 		<cconfiguration id="cdt.managedbuild.config.gnu.macosx.exe.debug.45945676">
 			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.gnu.macosx.exe.debug.45945676" moduleId="org.eclipse.cdt.core.settings" name="Debug">
@@ -45,7 +43,9 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="domino.cpp|nQueens.cpp|combinacionesLetras.cpp|laberinto.cpp|moreQueens.cpp|Nodo.cpp|ListaDinamica.cpp|ArbolBinario.cpp|nodo.cpp|Monticulo.cpp|mochila.cpp|HashTable.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="lineales/PilaEstatica.cpp|lineales/PilaDinamica.cpp|lineales/DobleCola.cpp|lineales/ColaEstatica.cpp|lineales/ColaDinamica.cpp|include|src|domino.cpp|nQueens.cpp|combinacionesLetras.cpp|laberinto.cpp|moreQueens.cpp|Nodo.cpp|ListaDinamica.cpp|ArbolBinario.cpp|nodo.cpp|Monticulo.cpp|mochila.cpp|HashTable.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -93,7 +93,9 @@
 						</toolChain>
 					</folderInfo>
 					<sourceEntries>
-						<entry excluding="ArbolBinario.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry excluding="lineales/PilaEstatica.cpp|lineales/PilaDinamica.cpp|lineales/DobleCola.cpp|lineales/ColaEstatica.cpp|lineales/ColaDinamica.cpp|include|src|ArbolBinario.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
+						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
