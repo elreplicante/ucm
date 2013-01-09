@@ -34,7 +34,7 @@ int Fecha::dia() const {
 }
 
 int Fecha::diaSemana() const {
-
+	return 0;
 }
 
 int Fecha::mes() const {
@@ -46,7 +46,7 @@ int Fecha::anyo() const {
 }
 
 int Fecha::diaAnyo() const {
-
+	return 0;
 }
 
 Fecha::~Fecha() {

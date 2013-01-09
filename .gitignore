@@ -4,6 +4,8 @@
 *.slo
 *.lo
 *.o
+*.d
+*.mk
 
 # Compiled Dynamic libraries
 *.so
@@ -13,6 +15,7 @@
 *.lai
 *.la
 *.a
+/Debug
 
 
 #Python
