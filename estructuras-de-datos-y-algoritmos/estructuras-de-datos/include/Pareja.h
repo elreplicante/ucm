@@ -8,19 +8,23 @@
 #ifndef PAREJA_H_
 #define PAREJA_H_
 
-template<class T>
+template<class A, class B>
 class Pareja {
 
 public:
-	Pareja(T a, T b);
-	T primero() const;
-	T segundo() const;
-	T getMax() const;
-	~Pareja();
+	Pareja(const A &a, const B &b) : _a(a), _b(b) {}
+	A primero() const {
+		return _a;
+	}
+	B segundo() const {
+		return _b;
+	}
+
+	~Pareja() {}
 
 private:
-	T _a;
-	T _b;
+	A _a;
+	B _b;
 };
 
 #endif /* PAREJA_H_ */

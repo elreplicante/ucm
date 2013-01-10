@@ -19,7 +19,10 @@ int division(int a, int b) {
 
 int main() {
 
-//	Pareja<int> pareja = Pareja<int>(5, 8);
+	Pareja<int, int> pareja = Pareja<int, int>(5, 8);
+	int primero = pareja.primero();
+	int segundo = pareja.segundo();
+	cout << "(" << primero << "," << segundo << ")" << endl;
 	try {
 		cout << division(5, 5) << endl;
 	// 	cout << division(5, 0);
