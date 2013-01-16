@@ -16,7 +16,7 @@
 #define PILA_H_
 
 template<class T>
-class Pila {
+class PilaE {
 
 public:
 	static const int TAM_MAX = 100;
@@ -24,11 +24,11 @@ public:
 	/**
 	 *
 	 */
-	Pila() {
+	PilaE() {
 		_numElems = 0;
 	}
 
-	~Pila() {
+	~PilaE() {
 
 	}
 
@@ -98,11 +98,11 @@ public:
 	/**
 	 * @brief Constructor por copia
 	 */
-	Pila(const Pila<T> &p) {
+	PilaE(const PilaE<T> &p) {
 		copia(p);
 	}
 
-	Pila<T> &operator =(const Pila<T> &p) {
+	PilaE<T> &operator =(const PilaE<T> &p) {
 		if (this != &p) {
 			copia(p);
 		}
@@ -110,16 +110,33 @@ public:
 		return *this;
 	}
 
+	/** Operador de comparación. */
+		bool operator==(const PilaE<T> &rhs) const {
+			if (_numElems != rhs._numElems)
+				return false;
+
+			for (unsigned int i = 0; i < _numElems; ++i)
+				if (_v[i] != rhs._v[i])
+					return false;
+
+			return true;
+		}
+
+		bool operator!=(const PilaE<T> &rhs) const {
+			return !(*this == rhs);
+		}
+
+	protected:
+
+		void copia(const PilaE<T> &other) {
+			_numElems = other._numElems;
+			for (unsigned int i = 0; i < _numElems; ++i)
+				_v[i] = other._v[i];
+		}
+
 private:
 	T _v[TAM_MAX];
 	unsigned int _numElems;
-
-	void copia(const Pila<T> &p) {
-		_numElems = p._numElems;
-		for (int i = 0; i < _numElems; ++i) {
-			_v[i] = p._v[i];
-		}
-	}
 
 };
 
