@@ -1,6 +1,6 @@
 /**
  * @author Sergio Revilla
- * @brief Implementación de una pila estática
+ * @brief Implementaci��n de una pila est��tica
  *
  * - PilaVacia: -> Pila (Generadora)
  * - apila: Pila, Elem --> Pila (Generadora parcial)
@@ -12,8 +12,12 @@
  *
  */
 
+
 #ifndef PILA_H_
 #define PILA_H_
+
+#include "ExcepcionTAD.h"
+using namespace std;
 
 template<class T>
 class PilaE {
@@ -42,7 +46,7 @@ public:
 	 */
 	void apila(const T &elem) {
 		if (_numElems == TAM_MAX)
-			throw EPilaLLena();
+			throw EPilaLlena();
 		_v[_numElems] = elem;
 		_numElems++;
 	}
@@ -74,7 +78,7 @@ public:
 	}
 
 	/**
-	 * @brief Indica si la pila es vacía
+	 * @brief Indica si la pila es vac��a
 	 *
 	 * esVacia(PilaVacia) = true
 	 *
@@ -85,7 +89,7 @@ public:
 	}
 
 	/**
-	 * @brief Devuelve el número de elementos de la pila
+	 * @brief Devuelve el n��mero de elementos de la pila
 	 *
 	 * numElems(PilaVacia) =  0
 	 *
@@ -125,6 +129,18 @@ public:
 		bool operator!=(const PilaE<T> &rhs) const {
 			return !(*this == rhs);
 		}
+/*
+		std::ostream operator <<(const PilaE<T> &rhs) const{
+			cout << "(";
+			for(int i=0; i < _numElems; i++) {
+				cout << i << ",";
+			}
+
+			cout << ")";
+			return;
+		}
+
+*/
 
 	protected:
 

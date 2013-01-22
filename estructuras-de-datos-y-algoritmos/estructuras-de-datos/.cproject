@@ -44,16 +44,11 @@
 							</tool>
 						</toolChain>
 					</folderInfo>
-					<fileInfo id="cdt.managedbuild.config.gnu.macosx.exe.debug.45945676.838521684" name="Pareja.cpp" rcbsApplicability="disable" resourcePath="src/Pareja.cpp" toolsToInvoke="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.275767143.1105877331">
-						<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.275767143.1105877331" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.exe.debug.275767143">
-							<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1368434003" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
-						</tool>
-					</fileInfo>
 					<fileInfo id="cdt.managedbuild.config.gnu.macosx.exe.debug.45945676.1259746036" name="Pareja.h" rcbsApplicability="disable" resourcePath="include/Pareja.h" toolsToInvoke=""/>
 					<sourceEntries>
 						<entry excluding="lineales/PilaEstatica.cpp|lineales/PilaDinamica.cpp|lineales/DobleCola.cpp|lineales/ColaEstatica.cpp|lineales/ColaDinamica.cpp|include|src|domino.cpp|nQueens.cpp|combinacionesLetras.cpp|laberinto.cpp|moreQueens.cpp|Nodo.cpp|ListaDinamica.cpp|ArbolBinario.cpp|nodo.cpp|Monticulo.cpp|mochila.cpp|HashTable.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Excepcion.h|EPilaVacia.h|EPilaLLena.h|EDivisionPorCero.h" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
+						<entry excluding="EPilaVacia.cpp|EPilaLLena.cpp|EDivisionPorCero.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
@@ -102,8 +97,8 @@
 					</folderInfo>
 					<sourceEntries>
 						<entry excluding="lineales/PilaEstatica.cpp|lineales/PilaDinamica.cpp|lineales/DobleCola.cpp|lineales/ColaEstatica.cpp|lineales/ColaDinamica.cpp|include|src|ArbolBinario.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
-						<entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+						<entry excluding="Excepcion.h|EPilaVacia.h|EPilaLLena.h|EDivisionPorCero.h" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="include"/>
+						<entry excluding="EPilaVacia.cpp|EPilaLLena.cpp|EDivisionPorCero.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
 					</sourceEntries>
 				</configuration>
 			</storageModule>
