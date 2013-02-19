@@ -7,6 +7,7 @@
 #include "include/ExcepcionTAD.h"
 #include "include/Pareja.h"
 #include "include/PilaE.h"
+#include "include/VectorDinamico.h"
 #include <iostream>
 using namespace std;
 
@@ -24,6 +25,7 @@ int main() {
 	int primero = pareja.primero();
 	int segundo = pareja.segundo();
 	PilaE<int> pila = PilaE<int>();
+	VectorDinamico<int> vectorDinamico = VectorDinamico<int>;
 
 
 	cout << "(" << primero << "," << segundo << ")" << endl;
@@ -44,7 +46,7 @@ int main() {
 		cout << "Pila vacia" << endl;
 
 	} catch (const EPilaLlena &llena) {
-		cout << "Pila llena" << endl;
+		cout << "\nPila llena" << endl;
 
 	}
 
