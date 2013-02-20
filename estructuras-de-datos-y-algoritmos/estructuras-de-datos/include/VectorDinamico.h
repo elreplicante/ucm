@@ -18,6 +18,7 @@ private:
 	 */
 
 	T *_v;
+
 	/**
 	 * Tamaño del vector _v.
 	 */
