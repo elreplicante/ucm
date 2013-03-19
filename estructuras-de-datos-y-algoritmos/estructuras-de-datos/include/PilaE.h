@@ -16,7 +16,7 @@
 #ifndef PILA_H_
 #define PILA_H_
 
-#include "ExcepcionTAD.h"
+#include "Excepciones.h"
 using namespace std;
 
 template<class T>

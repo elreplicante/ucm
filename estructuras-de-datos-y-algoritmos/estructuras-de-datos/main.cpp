@@ -4,7 +4,7 @@
  *  Created on: 09/01/2013
  *      Author: repli
  */
-#include "include/ExcepcionTAD.h"
+#include "include/Excepciones.h"
 #include "include/PilaVectorDinamico.h"
 #include <iostream>
 #include <string>
