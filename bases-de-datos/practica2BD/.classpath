@@ -2,6 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="/Users/repli/Google Drive/2012 - 2013/BD/practica2BD/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="/Users/repli/Documents/Programacion/ucm/bases-de-datos/practica2BD/lib/ojdbc6.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
