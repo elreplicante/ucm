@@ -1,56 +1,34 @@
 package program;
 
+import java.io.IOException;
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import transfer.EmployeeTransfer;
-import dao.employee.EmployeeDAO;
-import dao.employee.imp.EmployeeDAOImp;
-import dao.factory.DAOFactory;
-import exceptions.NotFoundException;
+import util.JdbcUtils;
 
 public class Main {
 
-	/**
-	 * @param args
-	 */
-	public static void main(String[] args) {
-		DAOFactory daoFactory = DAOFactory.getDAOFactory();
-		EmployeeDAOImp employeeDAO = daoFactory.getEmployeeDAO();
-		
-		EmployeeTransfer employee = new EmployeeTransfer();
-		employee.setDni("50734444D");
-		employee.setName("Sergio Revilla");
-		employee.setBirthDate(new Date(1978, 10, 02));
-		employee.setSalary(40000.0);
-		
-		
+	public static void main(String[] args) throws IOException {
+
 		String driver = "oracle.jdbc.driver.OracleDriver";
-		String url = "jdbc:oracle:thin:@192.168.56.101:1521/orcl";
-		String user = "practica2";
-		String pass = "practica2";
-		
-		try {
-			if (driver != null) {
-				Class.forName(driver);
-			} 
-			Connection conn = DriverManager.getConnection(url, user, pass);
-		//	employeeDAO.create(conn, employee);
-			EmployeeTransfer otherEmployee = employeeDAO.getObject(conn, "50734444D");
-			otherEmployee.toString();
-			employeeDAO.delete(conn, otherEmployee);
-		} catch (SQLException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (ClassNotFoundException e) {
+		String url = "";
+		String user = "";
+		String pass = "";
+		if (args.length != 3) {
+			throw new IOException();
+		} else {
+			url = args[2];
+			user = args[0];
+			pass = args[1];
 			
-			e.printStackTrace();
-		} catch (NotFoundException e) {
-			
-			e.printStackTrace();
 		}
+
+		try {
+			Connection conn = DriverManager.getConnection(url, user, pass);
+		} catch (SQLException e) {
+			JdbcUtils.printSQLException(e);
+		} 
 
 	}
 
