@@ -1,0 +1,13 @@
+ SELECT        -- COMPROBADO
+       NOMBRE, 
+       CALLE, 
+       "CÓDIGO POSTAL"
+FROM
+       EMPLEADOS 
+JOIN
+       DOMICILIOS
+ON
+       EMPLEADOS.DNI = DOMICILIOS.DNI
+ORDER BY 
+       "CÓDIGO POSTAL" ASC,
+       NOMBRE ASC;
