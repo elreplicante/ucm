@@ -6,7 +6,6 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.SQLRecoverableException;
 import java.sql.Statement;
 
 import util.JdbcUtils;
@@ -39,7 +38,6 @@ public class DataAccessObject {
 				}
 				
 			} catch (IOException e) {
-				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
 
@@ -71,9 +69,8 @@ public class DataAccessObject {
 		} catch (SQLException e) {
 			JdbcUtils.printSQLException(e);
 		} finally {
-			/*
-			 * Cierra el objeto que represneta el resultado de la consulta
-			 */
+			
+			//Cierra el objeto que represneta el resultado de la consulta 
 			try {
 				if (rs != null) {
 					rs.close();
@@ -81,10 +78,8 @@ public class DataAccessObject {
 			} catch (SQLException e) {
 				JdbcUtils.printSQLException(e);
 			}
-
-			/*
-			 * Cierra el objeto que representa la consulta SQL
-			 */
+			
+			 //Cierra el objeto que representa la consulta SQL
 			try {
 				if (stmt != null) {
 					stmt.close();

@@ -59,15 +59,14 @@ INTO EMPLEADOS
     '2000',
     TO_DATE('04/09/1998','DD/MM/YYYY')
   )
-
-SELECT * FROM dual;
+SELECT * FROM DUAL;
 
 INSERT ALL
 -- Inserta códigos postales
 INTO "CÓDIGOS POSTALES"
   (
     "CÓDIGO POSTAL",
-    "POBLACIÓN",
+    POBLACIÓN,
     PROVINCIA
   )
   VALUES
@@ -80,12 +79,12 @@ INTO "CÓDIGOS POSTALES"
 INTO "CÓDIGOS POSTALES"
   (
     "CÓDIGO POSTAL",
-    "POBLACIÓN",
+    POBLACIÓN,
     PROVINCIA
   )
   VALUES
   (
-    '1422',
+    '14200',
     'Peñarroya',
     'Córdoba'
   )
@@ -93,7 +92,7 @@ INTO "CÓDIGOS POSTALES"
 INTO "CÓDIGOS POSTALES"
   (
     "CÓDIGO POSTAL",
-    "POBLACIÓN",
+    POBLACIÓN,
     PROVINCIA
   )
   VALUES
@@ -106,7 +105,7 @@ INTO "CÓDIGOS POSTALES"
 INTO "CÓDIGOS POSTALES"
   (
     "CÓDIGO POSTAL",
-    "POBLACIÓN",
+    POBLACIÓN,
     PROVINCIA
   )
   VALUES
@@ -119,7 +118,7 @@ INTO "CÓDIGOS POSTALES"
 INTO "CÓDIGOS POSTALES"
   (
     "CÓDIGO POSTAL",
-    "POBLACIÓN",
+    POBLACIÓN,
     PROVINCIA
   )
   VALUES
@@ -132,7 +131,7 @@ INTO "CÓDIGOS POSTALES"
 INTO "CÓDIGOS POSTALES"
   (
     "CÓDIGO POSTAL",
-    "POBLACIÓN",
+    POBLACIÓN,
     PROVINCIA
   )
   VALUES
@@ -141,14 +140,15 @@ INTO "CÓDIGOS POSTALES"
     'Arganda',
     'Madrid'
   )
-SELECT * FROM dual;
+SELECT * FROM DUAL;
 
 INSERT ALL
+
 --Inserta teléfonos
-INTO "TELÉFONOS"
+INTO TELÉFONOS
   (
     DNI,
-    "TELÉFONOS"
+    TELÉFONO
   )
   VALUES
   (
@@ -156,10 +156,10 @@ INTO "TELÉFONOS"
     '611111111'
   )
   
-INTO "TELÉFONOS"
+INTO TELÉFONOS
   (
     DNI,
-    "TELÉFONOS"
+    TELÉFONO
   )
   VALUES
   (
@@ -167,10 +167,10 @@ INTO "TELÉFONOS"
     '931111111'
   )
 
-INTO "TELÉFONOS"
+INTO TELÉFONOS
   (
     DNI,
-    "TELÉFONOS"
+    TELÉFONO
   )
   VALUES
   (
@@ -178,10 +178,10 @@ INTO "TELÉFONOS"
     '913111111'
   )
 
-INTO "TELÉFONOS"
+INTO TELÉFONOS
   (
     DNI,
-    "TELÉFONOS"
+    TELÉFONO
   )
   VALUES
   (
@@ -189,10 +189,10 @@ INTO "TELÉFONOS"
     '913111111'
   )
   
-INTO "TELÉFONOS"
+INTO TELÉFONOS
   (
     DNI,
-    "TELÉFONOS"
+    TELÉFONO
   )
   VALUES
   (
@@ -200,10 +200,10 @@ INTO "TELÉFONOS"
     '644444444'
   )
 
-
-SELECT * FROM dual;
+SELECT * FROM DUAL;
 
 INSERT ALL
+
 
 --Inserta domicilios
 

@@ -34,8 +34,7 @@ public class Main {
 			int option = -1;
 			while (option != 0) {
 				option = getUserOption();
-				executeOption(dao, option);
-				
+				executeOption(dao, option);			
 			}
 			
 		} catch (SQLException e) {
@@ -44,7 +43,6 @@ public class Main {
 			try {
 				conn.close();
 			} catch (SQLException e) {
-				// TODO Auto-generated catch block
 				JdbcUtils.printSQLException(e);
 			}
 		}
@@ -62,6 +60,10 @@ public class Main {
 		case 2:
 			dao.executeSqlScript("dropTables.sql");
 			break;
+			
+		case 3:
+			dao.executeSqlScript("insertData.sql");
+			break;
 
 		default:
 			System.out.println("Escoge una opción del menú.");
@@ -72,8 +74,7 @@ public class Main {
 	private static int getUserOption() {
 		Scanner scan = new Scanner(System.in);
 		showMenu();
-		return scan.nextInt();
-		
+		return scan.nextInt();		
 	}
 
 	private static void showMenu() {
@@ -81,6 +82,7 @@ public class Main {
 		System.out.println("0.- Salir de la aplicación");
 		System.out.println("1.- Crear tablas.");
 		System.out.println("2.- Eliminar tablas.");
+		System.out.println("3.- Insertar datos.");	
 	}
 
 }
