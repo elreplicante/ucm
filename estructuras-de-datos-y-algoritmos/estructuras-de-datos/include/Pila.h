@@ -1,8 +1,9 @@
 /**
-  @file PilaLE.h
+  @file Pila.h
 
-  Implementación del TAD Pila utilizando una
-  lista enlazada de nodos.
+  Implementación del TAD Pila utilizando un
+  vector dinámico cuyo tamaño va creciendo si
+  es necesario.
 
   Estructura de Datos y Algoritmos
   Facultad de Informática
@@ -10,8 +11,8 @@
 
  (c) Marco Antonio Gómez Martín, 2012
 */
-#ifndef __PILA_LISTA_ENLAZADA_H
-#define __PILA_LISTA_ENLAZADA_H
+#ifndef __PILA_H
+#define __PILA_H
 
 #include "Excepciones.h"
 
@@ -31,17 +32,20 @@
  @author Marco Antonio Gómez Martín
  */
 template <class T>
-class PilaLE {
+class Pila {
 public:
 
+	/** Tamaño inicial del vector dinámico. */
+	enum { TAM_INICIAL = 10 };
+
 	/** Constructor; operación PilaVacia */
-	PilaLE() : _cima(NULL), _numElems(0) {
+	Pila() {
+		inicia();
 	}
 
-	/** Destructor; elimina la lista enlazada. */
-	~PilaLE() {
+	/** Destructor; elimina el vector. */
+	~Pila() {
 		libera();
-		_cima = NULL;
 	}
 
 	/**
@@ -50,7 +54,9 @@ public:
 	 @param elem Elemento a apilar.
 	*/
 	void apila(const T &elem) {
-		_cima = new Nodo(elem, _cima);
+		if (_numElems == _tam)
+			amplia();
+		_v[_numElems] = elem;
 		_numElems++;
 	}
 	
@@ -58,15 +64,12 @@ public:
 	 Desapila un elemento. Operación modificadora parcial,
 	 que falla si la pila está vacía.
 
-	 desapila(Apila(elem, p) = p
+	 desapila(Apila(elem, p)) = p
 	 error: desapila(PilaVacia)
 	*/
 	void desapila() {
 		if (esVacia())
 			throw EPilaVacia();
-		Nodo *aBorrar = _cima;
-		_cima = _cima->_sig;
-		delete aBorrar;
 		--_numElems;
 	}
 
@@ -82,7 +85,7 @@ public:
 	const T &cima() const {
 		if (esVacia())
 			throw EPilaVacia();
-		return _cima->_elem;
+		return _v[_numElems - 1];
 	}
 
 	/**
@@ -94,7 +97,7 @@ public:
 	 @return true si la pila no tiene ningún elemento.
 	 */
 	bool esVacia() const {
-		return _cima == NULL;
+		return _numElems == 0;
 	}
 
 	/**
@@ -115,12 +118,12 @@ public:
 	// //
 
 	/** Constructor copia */
-	PilaLE(const PilaLE<T> &other) : _cima(NULL) {
+	Pila(const Pila<T> &other) {
 		copia(other);
 	}
 
 	/** Operador de asignación */
-	PilaLE<T> &operator=(const PilaLE<T> &other) {
+	Pila<T> &operator=(const Pila<T> &other) {
 		if (this != &other) {
 			libera();
 			copia(other);
@@ -129,87 +132,61 @@ public:
 	}
 
 	/** Operador de comparación. */
-	bool operator==(const PilaLE<T> &rhs) const {
+	bool operator==(const Pila<T> &rhs) const {
 		if (_numElems != rhs._numElems)
 			return false;
-		Nodo *cima1 = _cima;
-		Nodo *cima2 = rhs._cima;
-		while ((cima1 != NULL) && (cima2 != NULL)) {
-			if (cima1->_elem != cima2->_elem)
+		for (unsigned int i = 0; i < _numElems; ++i)
+			if (_v[i] != rhs._v[i])
 				return false;
-			cima1 = cima1->_sig;
-			cima2 = cima2->_sig;
-		}
-
-		return (cima1 == NULL) && (cima2 == NULL);
+		return true;
 	}
 
-	bool operator!=(const PilaLE<T> &rhs) const {
+	bool operator!=(const Pila<T> &rhs) const {
 		return !(*this == rhs);
 	}
 
 protected:
 
-	void libera() {
-		libera(_cima);
+	void inicia() {
+		_v = new T[TAM_INICIAL];
+		_tam = TAM_INICIAL;
+		_numElems = 0;
 	}
 
-	void copia(const PilaLE &other) {
+	void libera() {
+		delete []_v;
+		_v = NULL;
+	}
 
-		if (other.esVacia()) {
-			_cima = NULL;
-			_numElems = 0;
-		} else {
-			Nodo *act = other._cima;
-			Nodo *ant;
-			_cima = new Nodo(act->_elem);
-			ant = _cima;
-			while (act->_sig != NULL) {
-				act = act->_sig;
-				ant->_sig = new Nodo(act->_elem);
-				ant = ant->_sig;
-			}
-			_numElems = other._numElems;
-		}
+	void copia(const Pila &other) {
+		_tam = other._numElems + TAM_INICIAL;
+		_numElems = other._numElems;
+		_v = new T[_tam];
+		for (unsigned int i = 0; i < _numElems; ++i)
+			_v[i] = other._v[i];
+	}
+
+	void amplia() {
+		T *viejo = _v;
+		_tam *= 2;
+		_v = new T[_tam];
+
+		for (unsigned int i = 0; i < _numElems; ++i)
+			_v[i] = viejo[i];
+
+		delete []viejo;
 	}
 
 private:
 
-	/**
-	 Clase nodo que almacena internamente el elemento (de tipo T),
-	 y un puntero al nodo siguiente, que podría ser NULL si
-	 el nodo es el último de la lista enlazada.
-	 */
-	class Nodo {
-	public:
-		Nodo() : _sig(NULL) {}
-		Nodo(const T &elem) : _elem(elem), _sig(NULL) {}
-		Nodo(const T &elem, Nodo *sig) : 
-		    _elem(elem), _sig(sig) {}
+	/** Puntero al array que contiene los datos. */
+	T *_v;
 
-		T _elem;
-		Nodo *_sig;
-	};
+	/** Tamaño del vector _v. */
+	unsigned int _tam;
 
-	/**
-	 Elimina todos los nodos de la lista enlazada cuyo
-	 primer nodo se pasa como parámetro.
-	 Se admite que el nodo sea NULL (no habrá nada que
-	 liberar).
-	 */
-	static void libera(Nodo *prim) {
-		while (prim != NULL) {
-			Nodo *aux = prim;
-			prim = prim->_sig;
-			delete aux;
-		}
-	}
-
-	/** Puntero al primer elemento */
-	Nodo *_cima;
-
-	/** Número de elementos */
-	int _numElems;
+	/** Número de elementos reales guardados. */
+	unsigned int _numElems;
 };
 
-#endif // __PILA_LISTA_ENLAZADA_H
+#endif // __PILA_H

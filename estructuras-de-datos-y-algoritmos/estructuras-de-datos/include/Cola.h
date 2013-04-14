@@ -1,14 +1,14 @@
 /**
   @file Cola.h
 
-  Implementaci√≥n del TAD Cola utilizando una
+  ImplementaciÛn del TAD Cola utilizando una
   lista enlazada de nodos.
 
   Estructura de Datos y Algoritmos
-  Facultad de Inform√°tica
+  Facultad de Inform·tica
   Universidad Complutense de Madrid
 
- (c) Marco Antonio G√≥mez Mart√≠n, 2012
+ (c) Marco Antonio GÛmez MartÌn, 2012
 */
 #ifndef __COLA_LISTA_ENLAZADA_H
 #define __COLA_LISTA_ENLAZADA_H
@@ -16,19 +16,19 @@
 #include "Excepciones.h"
 
 /**
- Implementaci√≥n del TAD Cola utilizando una lista enlazada.
+ ImplementaciÛn del TAD Cola utilizando una lista enlazada.
 
  Las operaciones son:
 
  - ColaVacia: -> Cola. Generadora implementada en el
-   constructor sin par√°metros.
+   constructor sin par·metros.
  - PonDetras: Cola, Elem -> Cola. Generadora
  - quitaPrim: Cola - -> Cola. Modificadora parcial.
  - primero: Cola - -> Elem. Observadora parcial.
  - esVacia: Cola -> Bool. Observadora.
  - numElems: Cola -> Entero. Observadora.
 
- @author Marco Antonio G√≥mez Mart√≠n
+ @author Marco Antonio GÛmez MartÌn
  */
 template <class T>
 class Cola {
@@ -45,10 +45,10 @@ public:
 	}
 
 	/**
-	 A√±ade un elemento en la parte trasera de la cola.
-	 Operaci√≥n generadora.
+	 AÒade un elemento en la parte trasera de la cola.
+	 OperaciÛn generadora.
 
-	 @param elem Elemento a a√±adir.
+	 @param elem Elemento a aÒadir.
 	*/
 	void ponDetras(const T &elem) {
 		Nodo *nuevo = new Nodo(elem, NULL);
@@ -56,8 +56,8 @@ public:
 		if (_ult != NULL)
 			_ult->_sig = nuevo;
 		_ult = nuevo;
-		// Si la cola estaba vac√≠a, el primer elemento
-		// es el que acabamos de a√±adir
+		// Si la cola estaba vacÌa, el primer elemento
+		// es el que acabamos de aÒadir
 		if (_prim == NULL)
 			_prim = nuevo;
 		_numElems++;
@@ -65,8 +65,8 @@ public:
 
 	/**
 	 Elimina el primer elemento de la cola.
-	 Operaci√≥n modificadora parcial, que falla si
-	 la cola est√° vac√≠a.
+	 OperaciÛn modificadora parcial, que falla si 
+	 la cola est· vacÌa.
 
 	 quitaPrim(PonDetras(elem, ColaVacia)) = ColaVacia
 	 quitaPrim(PonDetras(elem, xs)) = PonDetras(elem, quitaPrim(xs)) si !esVacia(xs)
@@ -79,15 +79,15 @@ public:
 		_prim = _prim->_sig;
 		delete aBorrar;
 		--_numElems;
-		// Si la cola se qued√≥ vac√≠a, no hay
-		// √∫ltimo
+		// Si la cola se quedÛ vacÌa, no hay
+		// ˙ltimo
 		if (_prim == NULL)
 			_ult = NULL;
 	}
 
 	/**
-	 Devuelve el primer elemento de la cola. Operaci√≥n
-	 observadora parcial, que falla si la cola est√° vac√≠a.
+	 Devuelve el primer elemento de la cola. OperaciÛn
+	 observadora parcial, que falla si la cola est· vacÌa.
 
 	 primero(PonDetras(elem, ColaVacia)) = elem
 	 primero(PonDetras(elem, xs)) = primero(xs) si !esVacia(xs)
@@ -102,31 +102,31 @@ public:
 	}
 
 	/**
-	 Devuelve true si la cola no tiene ning√∫n elemento.
+	 Devuelve true si la cola no tiene ning˙n elemento.
 
 	 esVacia(Cola) = true
 	 esVacia(PonDetras(elem, p)) = false
 
-	 @return true si la cola no tiene ning√∫n elemento.
+	 @return true si la cola no tiene ning˙n elemento.
 	 */
 	bool esVacia() const {
 		return _prim == NULL;
 	}
 
 	/**
-	 Devuelve el n√∫mero de elementos que hay en la
+	 Devuelve el n˙mero de elementos que hay en la
 	 cola.
 	 numElems(ColaVacia) = 0
 	 numElems(PonDetras(elem, p)) = 1 + numElems(p)
 
-	 @return N√∫mero de elementos.
+	 @return N˙mero de elementos.
 	 */
 	int numElems() const {
 		return _numElems;
 	}
 
 	// //
-	// M√âTODOS DE "FONTANER√çA" DE C++ QUE HACEN VERS√ÅTIL
+	// M…TODOS DE "FONTANERÕA" DE C++ QUE HACEN VERS¡TIL
 	// A LA CLASE
 	// //
 
@@ -135,7 +135,7 @@ public:
 		copia(other);
 	}
 
-	/** Operador de asignaci√≥n */
+	/** Operador de asignaciÛn */
 	Cola<T> &operator=(const Cola<T> &other) {
 		if (this != &other) {
 			libera();
@@ -144,7 +144,7 @@ public:
 		return *this;
 	}
 
-	/** Operador de comparaci√≥n. */
+	/** Operador de comparaciÛn. */
 	bool operator==(const Cola<T> &rhs) const {
 		if (_numElems != rhs._numElems)
 			return false;
@@ -194,14 +194,14 @@ private:
 
 	/**
 	 Clase nodo que almacena internamente el elemento (de tipo T),
-	 y un puntero al nodo siguiente, que podr√≠a ser NULL si
-	 el nodo es el √∫ltimo de la lista enlazada.
+	 y un puntero al nodo siguiente, que podrÌa ser NULL si
+	 el nodo es el ˙ltimo de la lista enlazada.
 	 */
 	class Nodo {
 	public:
 		Nodo() : _sig(NULL) {}
 		Nodo(const T &elem) : _elem(elem), _sig(NULL) {}
-		Nodo(const T &elem, Nodo *sig) :
+		Nodo(const T &elem, Nodo *sig) : 
 		    _elem(elem), _sig(sig) {}
 
 		T _elem;
@@ -210,8 +210,8 @@ private:
 
 	/**
 	 Elimina todos los nodos de la lista enlazada cuyo
-	 primer nodo se pasa como par√°metro.
-	 Se admite que el nodo sea NULL (no habr√° nada que
+	 primer nodo se pasa como par·metro.
+	 Se admite que el nodo sea NULL (no habr· nada que
 	 liberar).
 	 */
 	static void libera(Nodo *prim) {
@@ -225,10 +225,10 @@ private:
 	/** Puntero al primer elemento. */
 	Nodo *_prim;
 
-	/** Puntero al √∫ltimo elemento. */
+	/** Puntero al ˙ltimo elemento. */
 	Nodo *_ult;
 
-	/** N√∫mero de elementos */
+	/** N˙mero de elementos */
 	int _numElems;
 };
 
