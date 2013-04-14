@@ -1,6 +1,5 @@
 INSERT ALL
 
--- Inserta empleados
 INTO EMPLEADOS
   (
     DNI,
@@ -29,7 +28,6 @@ INTO EMPLEADOS
     '1000',
     TO_DATE('01/05/1983','DD/MM/YYYY')
   )
-  
 INTO EMPLEADOS
   (
     DNI,
@@ -44,7 +42,6 @@ INTO EMPLEADOS
     '1500,25',
     TO_DATE('26/04/1990','DD/MM/YYYY')
   )
-  
 INTO EMPLEADOS
   (
     DNI,
@@ -60,9 +57,8 @@ INTO EMPLEADOS
     TO_DATE('04/09/1998','DD/MM/YYYY')
   )
 SELECT * FROM DUAL;
-
 INSERT ALL
--- Inserta códigos postales
+
 INTO "CÓDIGOS POSTALES"
   (
     "CÓDIGO POSTAL",
@@ -75,7 +71,6 @@ INTO "CÓDIGOS POSTALES"
     'Parets',
     'Barcelona'
   )
-  
 INTO "CÓDIGOS POSTALES"
   (
     "CÓDIGO POSTAL",
@@ -88,7 +83,6 @@ INTO "CÓDIGOS POSTALES"
     'Peñarroya',
     'Córdoba'
   )
-
 INTO "CÓDIGOS POSTALES"
   (
     "CÓDIGO POSTAL",
@@ -101,7 +95,6 @@ INTO "CÓDIGOS POSTALES"
     'Lucena',
     'Córdoba'
   )
-
 INTO "CÓDIGOS POSTALES"
   (
     "CÓDIGO POSTAL",
@@ -114,7 +107,6 @@ INTO "CÓDIGOS POSTALES"
     'Madrid',
     'Madrid'
   )
-
 INTO "CÓDIGOS POSTALES"
   (
     "CÓDIGO POSTAL",
@@ -127,7 +119,6 @@ INTO "CÓDIGOS POSTALES"
     'Zaragoza',
     'Zaragoza'
   )
-
 INTO "CÓDIGOS POSTALES"
   (
     "CÓDIGO POSTAL",
@@ -141,10 +132,8 @@ INTO "CÓDIGOS POSTALES"
     'Madrid'
   )
 SELECT * FROM DUAL;
-
 INSERT ALL
 
---Inserta teléfonos
 INTO TELÉFONOS
   (
     DNI,
@@ -155,7 +144,6 @@ INTO TELÉFONOS
     '12345678C',
     '611111111'
   )
-  
 INTO TELÉFONOS
   (
     DNI,
@@ -166,7 +154,6 @@ INTO TELÉFONOS
     '12345678C',
     '931111111'
   )
-
 INTO TELÉFONOS
   (
     DNI,
@@ -177,7 +164,6 @@ INTO TELÉFONOS
     '12345678L',
     '913111111'
   )
-
 INTO TELÉFONOS
   (
     DNI,
@@ -188,7 +174,6 @@ INTO TELÉFONOS
     '12345678P',
     '913111111'
   )
-  
 INTO TELÉFONOS
   (
     DNI,
@@ -199,13 +184,8 @@ INTO TELÉFONOS
     '12345678P',
     '644444444'
   )
-
 SELECT * FROM DUAL;
-
 INSERT ALL
-
-
---Inserta domicilios
 
 INTO DOMICILIOS
   (
@@ -219,7 +199,6 @@ INTO DOMICILIOS
     'Avda. Complutense',
     '28040'
   )
-
 INTO DOMICILIOS
   (
     DNI,
@@ -232,7 +211,6 @@ INTO DOMICILIOS
     'Cántaro',
     '28004'
   )
-
 INTO DOMICILIOS
   (
     DNI,
@@ -245,7 +223,6 @@ INTO DOMICILIOS
     'Diamante',
     '14200'
   )
-  
 INTO DOMICILIOS
   (
     DNI,
@@ -258,7 +235,6 @@ INTO DOMICILIOS
     'Carbón',
     '14900'
   )
-
 INTO DOMICILIOS
   (
     DNI,
@@ -271,5 +247,4 @@ INTO DOMICILIOS
     'Diamante',
     '14200'
   )
-
 SELECT * FROM dual;

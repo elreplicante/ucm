@@ -64,6 +64,19 @@ public class Main {
 		case 3:
 			dao.executeSqlScript("insertData.sql");
 			break;
+			
+		case 4:
+			dao.executeSqlScript("deleteData.sql");
+			break;
+			
+		case 5:
+			dao.executeSqlScript("query_2_b.sql");
+			//dao.ejecutaConsulta("SELECT * FROM EMPLEADOS");
+			break;
+			
+		case 6:
+			dao.executeSqlScript("query_5.sql");
+			break;
 
 		default:
 			System.out.println("Escoge una opción del menú.");
@@ -82,7 +95,11 @@ public class Main {
 		System.out.println("0.- Salir de la aplicación");
 		System.out.println("1.- Crear tablas.");
 		System.out.println("2.- Eliminar tablas.");
-		System.out.println("3.- Insertar datos.");	
+		System.out.println("3.- Insertar datos.");
+		System.out.println("4.- Borrar datos de las tablas.");
+		System.out.println("5.- Consulta 2.b mejorada.");
+		System.out.println("6.- Consulta 5 parametrizado.");
+		
 	}
 
 }
