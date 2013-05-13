@@ -81,8 +81,8 @@ DECLARA_EXCEPCION(EAccesoInvalido);
 DECLARA_EXCEPCION(EArbolVacio);
 
 /**
- Excepción generada por algunas operaciones de los
- árboles de búsqueda.
+ Excepción generada al intentar acceder a un contenedor 
+ asociativo con una clave incorrecta. 
  */
 DECLARA_EXCEPCION(EClaveErronea);
 
