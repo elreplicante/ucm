@@ -1,0 +1,253 @@
+\hypertarget{class_tabla}{
+\section{\-Referencia de la plantilla de la \-Clase \-Tabla$<$ \-C, \-V $>$}
+\label{class_tabla}\index{\-Tabla$<$ C, V $>$@{\-Tabla$<$ C, V $>$}}
+}
+
+
+{\ttfamily \#include $<$\-Tabla.\-h$>$}
+
+\subsection*{\-Clases}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_tabla_1_1_iterador}{\-Iterador}
+\end{DoxyCompactItemize}
+\subsection*{\-MÃ©todos pÃºblicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_tabla_a909993cc4dff5b8a4226098f0fb7b2f6}{\-Tabla} ()
+\item 
+\hyperlink{class_tabla_abc6cf5e3da1d5ed9a3993b792901777c}{$\sim$\-Tabla} ()
+\item 
+void \hyperlink{class_tabla_a4639322c76a587547f9c21b7f99d00bf}{inserta} (const \-C \&clave, const \-V \&valor)
+\item 
+void \hyperlink{class_tabla_a649908def3b3705034800638875b8f6f}{borra} (const \-C \&clave)
+\item 
+bool \hyperlink{class_tabla_a27b2e3d9366f50c42a42d080e3212875}{esta} (const \-C \&clave)
+\item 
+const \-V \& \hyperlink{class_tabla_a577a7ceb58c7a1b14b6dcf1e238537bb}{consulta} (const \-C \&clave)
+\item 
+bool \hyperlink{class_tabla_aa41ade5c14017b946aa25bf043990171}{es\-Vacia} ()
+\item 
+\hyperlink{class_tabla_1_1_iterador}{\-Iterador} \hyperlink{class_tabla_a6fb97e5622d2e72191254e091816a8e8}{principio} ()
+\item 
+\hyperlink{class_tabla_1_1_iterador}{\-Iterador} \hyperlink{class_tabla_aeb550b392bfc45df2a731964b35111b1}{final} () const 
+\item 
+\hyperlink{class_tabla_ae2b1a0422a2c99a2c91656da56bc558b}{\-Tabla} (const \hyperlink{class_tabla}{\-Tabla}$<$ \-C, \-V $>$ \&other)
+\item 
+\hyperlink{class_tabla}{\-Tabla}$<$ \-C, \-V $>$ \& \hyperlink{class_tabla_ad03eb5b898aba5b098e5b4332b3ee6a6}{operator=} (const \hyperlink{class_tabla}{\-Tabla}$<$ \-C, \-V $>$ \&other)
+\end{DoxyCompactItemize}
+\subsection*{\-Atributos pÃºblicos estÃ¡ticos}
+\begin{DoxyCompactItemize}
+\item 
+static const int \hyperlink{class_tabla_a4c688585658775b8536ede83f56b380d}{\-T\-A\-M\-\_\-\-I\-N\-I\-C\-I\-A\-L} = 10
+\end{DoxyCompactItemize}
+
+
+\subsection{\-DescripciÃ³n detallada}
+\subsubsection*{template$<$class C, class V$>$class Tabla$<$ C, V $>$}
+
+\-Implementación del \-T\-A\-D \hyperlink{class_tabla}{\-Tabla} usando una tabla hash abierta.
+
+\-Las operaciones públicas son\-:
+
+
+\begin{DoxyItemize}
+\item \-Tabla\-Vacia\-: -\/$>$ \hyperlink{class_tabla}{\-Tabla}. \-Generadora (constructor).
+\item inserta\-: \hyperlink{class_tabla}{\-Tabla}, \-Clave, \-Valor -\/$>$ \hyperlink{class_tabla}{\-Tabla}. \-Generadora.
+\item borra\-: \hyperlink{class_tabla}{\-Tabla}, \-Clave -\/$>$ \hyperlink{class_tabla}{\-Tabla}. \-Modificadora.
+\item esta\-: \hyperlink{class_tabla}{\-Tabla}, \-Clave -\/$>$ \-Bool. \-Observadora.
+\item consulta\-: \hyperlink{class_tabla}{\-Tabla}, \-Clave -\/ -\/$>$ \-Valor. \-Observadora parcial.
+\item es\-Vacia\-: \hyperlink{class_tabla}{\-Tabla} -\/$>$ \-Bool. \-Observadora.
+\end{DoxyItemize}
+
+\begin{DoxyAuthor}{\-Autor}
+\-Antonio \-Sánchez \-Ruiz-\/\-Granados 
+\end{DoxyAuthor}
+
+
+\subsection{\-DocumentaciÃ³n del constructor y destructor}
+\hypertarget{class_tabla_a909993cc4dff5b8a4226098f0fb7b2f6}{
+\index{\-Tabla@{\-Tabla}!\-Tabla@{\-Tabla}}
+\index{\-Tabla@{\-Tabla}!Tabla@{\-Tabla}}
+\subsubsection[{\-Tabla}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C , class V $>$ {\bf \-Tabla}$<$ \-C, \-V $>$\-::{\bf \-Tabla} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_tabla_a909993cc4dff5b8a4226098f0fb7b2f6}
+\-Constructor por defecto. \-Crea una tabla con \-T\-A\-M\-\_\-\-I\-N\-I\-C\-I\-A\-L posiciones. \hypertarget{class_tabla_abc6cf5e3da1d5ed9a3993b792901777c}{
+\index{\-Tabla@{\-Tabla}!$\sim$\-Tabla@{$\sim$\-Tabla}}
+\index{$\sim$\-Tabla@{$\sim$\-Tabla}!Tabla@{\-Tabla}}
+\subsubsection[{$\sim$\-Tabla}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C , class V $>$ {\bf \-Tabla}$<$ \-C, \-V $>$\-::$\sim${\bf \-Tabla} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_tabla_abc6cf5e3da1d5ed9a3993b792901777c}
+\-Destructor. \hypertarget{class_tabla_ae2b1a0422a2c99a2c91656da56bc558b}{
+\index{\-Tabla@{\-Tabla}!\-Tabla@{\-Tabla}}
+\index{\-Tabla@{\-Tabla}!Tabla@{\-Tabla}}
+\subsubsection[{\-Tabla}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C , class V $>$ {\bf \-Tabla}$<$ \-C, \-V $>$\-::{\bf \-Tabla} (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Tabla}$<$ \-C, \-V $>$ \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_tabla_ae2b1a0422a2c99a2c91656da56bc558b}
+\-Constructor por copia.
+
+
+\begin{DoxyParams}{\-ParÃ¡metros}
+{\em other} & tabla que se quiere copiar. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{\-DocumentaciÃ³n de las funciones miembro}
+\hypertarget{class_tabla_a649908def3b3705034800638875b8f6f}{
+\index{\-Tabla@{\-Tabla}!borra@{borra}}
+\index{borra@{borra}!Tabla@{\-Tabla}}
+\subsubsection[{borra}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C , class V $>$ void {\bf \-Tabla}$<$ \-C, \-V $>$\-::borra (
+\begin{DoxyParamCaption}
+\item[{const \-C \&}]{clave}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_tabla_a649908def3b3705034800638875b8f6f}
+\-Elimina el elemento de la tabla con la clave dada. \-Si no existía ningún elemento con dicha clave, la tabla no se modifica.
+
+
+\begin{DoxyParams}{\-ParÃ¡metros}
+{\em clave} & clave del elemento a eliminar. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_tabla_a577a7ceb58c7a1b14b6dcf1e238537bb}{
+\index{\-Tabla@{\-Tabla}!consulta@{consulta}}
+\index{consulta@{consulta}!Tabla@{\-Tabla}}
+\subsubsection[{consulta}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C , class V $>$ const \-V\& {\bf \-Tabla}$<$ \-C, \-V $>$\-::consulta (
+\begin{DoxyParamCaption}
+\item[{const \-C \&}]{clave}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_tabla_a577a7ceb58c7a1b14b6dcf1e238537bb}
+\-Devuelve el valor asociado a la clave dada. \-Si la tabla no contiene esa clave lanza una excepción.
+
+
+\begin{DoxyParams}{\-ParÃ¡metros}
+{\em clave} & clave del elemento a buscar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Devuelve}
+valor asociado a dicha clave. 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{\-Excepciones}
+{\em \-E\-Clave\-Inexistente} & si la clave no existe en la tabla. \\
+\hline
+\end{DoxyExceptions}
+\hypertarget{class_tabla_a27b2e3d9366f50c42a42d080e3212875}{
+\index{\-Tabla@{\-Tabla}!esta@{esta}}
+\index{esta@{esta}!Tabla@{\-Tabla}}
+\subsubsection[{esta}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C , class V $>$ bool {\bf \-Tabla}$<$ \-C, \-V $>$\-::esta (
+\begin{DoxyParamCaption}
+\item[{const \-C \&}]{clave}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_tabla_a27b2e3d9366f50c42a42d080e3212875}
+\-Comprueba si la tabla contiene algún elemento con la clave dada.
+
+
+\begin{DoxyParams}{\-ParÃ¡metros}
+{\em clave} & clave a buscar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Devuelve}
+si existe algún elemento con esa clave. 
+\end{DoxyReturn}
+\hypertarget{class_tabla_aa41ade5c14017b946aa25bf043990171}{
+\index{\-Tabla@{\-Tabla}!es\-Vacia@{es\-Vacia}}
+\index{es\-Vacia@{es\-Vacia}!Tabla@{\-Tabla}}
+\subsubsection[{es\-Vacia}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C , class V $>$ bool {\bf \-Tabla}$<$ \-C, \-V $>$\-::es\-Vacia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_tabla_aa41ade5c14017b946aa25bf043990171}
+\-Indica si la tabla está vacía, es decir, si no contiene ningún elemento.
+
+\begin{DoxyReturn}{\-Devuelve}
+si la tabla está vacía. 
+\end{DoxyReturn}
+\hypertarget{class_tabla_aeb550b392bfc45df2a731964b35111b1}{
+\index{\-Tabla@{\-Tabla}!final@{final}}
+\index{final@{final}!Tabla@{\-Tabla}}
+\subsubsection[{final}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C , class V $>$ {\bf \-Iterador} {\bf \-Tabla}$<$ \-C, \-V $>$\-::final (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_tabla_aeb550b392bfc45df2a731964b35111b1}
+\-Devuelve un iterador al final del recorrido (apunta más allá del último elemento de la tabla). \begin{DoxyReturn}{\-Devuelve}
+iterador al final del recorrido. 
+\end{DoxyReturn}
+\hypertarget{class_tabla_a4639322c76a587547f9c21b7f99d00bf}{
+\index{\-Tabla@{\-Tabla}!inserta@{inserta}}
+\index{inserta@{inserta}!Tabla@{\-Tabla}}
+\subsubsection[{inserta}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C , class V $>$ void {\bf \-Tabla}$<$ \-C, \-V $>$\-::inserta (
+\begin{DoxyParamCaption}
+\item[{const \-C \&}]{clave, }
+\item[{const \-V \&}]{valor}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_tabla_a4639322c76a587547f9c21b7f99d00bf}
+\-Inserta un nuevo par (clave, valor) en la tabla. \-Si ya existía un elemento con esa clave, se actualiza su valor.
+
+
+\begin{DoxyParams}{\-ParÃ¡metros}
+{\em clave} & clave del nuevo elemento. \\
+\hline
+{\em valor} & valor del nuevo elemento. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_tabla_ad03eb5b898aba5b098e5b4332b3ee6a6}{
+\index{\-Tabla@{\-Tabla}!operator=@{operator=}}
+\index{operator=@{operator=}!Tabla@{\-Tabla}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C , class V $>$ {\bf \-Tabla}$<$\-C,\-V$>$\& {\bf \-Tabla}$<$ \-C, \-V $>$\-::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Tabla}$<$ \-C, \-V $>$ \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_tabla_ad03eb5b898aba5b098e5b4332b3ee6a6}
+\-Operador de asignación.
+
+
+\begin{DoxyParams}{\-ParÃ¡metros}
+{\em other} & tabla que se quiere copiar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Devuelve}
+referencia a este mismo objeto ($\ast$this). 
+\end{DoxyReturn}
+\hypertarget{class_tabla_a6fb97e5622d2e72191254e091816a8e8}{
+\index{\-Tabla@{\-Tabla}!principio@{principio}}
+\index{principio@{principio}!Tabla@{\-Tabla}}
+\subsubsection[{principio}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C , class V $>$ {\bf \-Iterador} {\bf \-Tabla}$<$ \-C, \-V $>$\-::principio (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_tabla_a6fb97e5622d2e72191254e091816a8e8}
+\-Devuelve un iterador al primer par (clave, valor) de la tabla. \-El iterador devuelto coincidirá con \hyperlink{class_tabla_aeb550b392bfc45df2a731964b35111b1}{final()} si la tabla está vacía. \begin{DoxyReturn}{\-Devuelve}
+iterador al primer par (clave, valor) de la tabla. 
+\end{DoxyReturn}
+
+
+\subsection{\-DocumentaciÃ³n de los datos miembro}
+\hypertarget{class_tabla_a4c688585658775b8536ede83f56b380d}{
+\index{\-Tabla@{\-Tabla}!\-T\-A\-M\-\_\-\-I\-N\-I\-C\-I\-A\-L@{\-T\-A\-M\-\_\-\-I\-N\-I\-C\-I\-A\-L}}
+\index{\-T\-A\-M\-\_\-\-I\-N\-I\-C\-I\-A\-L@{\-T\-A\-M\-\_\-\-I\-N\-I\-C\-I\-A\-L}!Tabla@{\-Tabla}}
+\subsubsection[{\-T\-A\-M\-\_\-\-I\-N\-I\-C\-I\-A\-L}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class C , class V $>$ const int {\bf \-Tabla}$<$ \-C, \-V $>$\-::{\bf \-T\-A\-M\-\_\-\-I\-N\-I\-C\-I\-A\-L} = 10\hspace{0.3cm}{\ttfamily  \mbox{[}static\mbox{]}}}}
+\label{class_tabla_a4c688585658775b8536ede83f56b380d}
+\-Tamaño inicial de la tabla. 
+
+\-La documentaciÃ³n para esta clase fue generada a partir del siguiente fichero\-:\begin{DoxyCompactItemize}
+\item 
+include/\-Tabla.\-h\end{DoxyCompactItemize}

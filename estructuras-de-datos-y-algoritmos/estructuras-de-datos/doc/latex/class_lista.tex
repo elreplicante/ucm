@@ -1,0 +1,314 @@
+\hypertarget{class_lista}{
+\section{\-Referencia de la plantilla de la \-Clase \-Lista$<$ \-T $>$}
+\label{class_lista}\index{\-Lista$<$ T $>$@{\-Lista$<$ T $>$}}
+}
+
+
+{\ttfamily \#include $<$\-Lista.\-h$>$}
+
+\subsection*{\-Clases}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_lista_1_1_iterador}{\-Iterador}
+\end{DoxyCompactItemize}
+\subsection*{\-MÃ©todos pÃºblicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_lista_adce924e21607848663132290be1a959d}{\-Lista} ()
+\item 
+\hyperlink{class_lista_af297975e278b0c92cbf67d14b2f08366}{$\sim$\-Lista} ()
+\item 
+void \hyperlink{class_lista_a493a6004eed1b429bfde8a13f857f05e}{\-Cons} (const \-T \&elem)
+\item 
+void \hyperlink{class_lista_ac7c8b711e925f3ba8e7f3aa6e45a05c9}{pon\-Dr} (const \-T \&elem)
+\item 
+const \-T \& \hyperlink{class_lista_a356b565a60e2d85544ce3bbd5414f21a}{primero} () const 
+\item 
+const \-T \& \hyperlink{class_lista_aaed370a83bb04c7c0f8c59f00da59699}{ultimo} () const 
+\item 
+void \hyperlink{class_lista_a9c2abbb0a41627b9af1e4418c807da4f}{resto} ()
+\item 
+void \hyperlink{class_lista_afbe8b38348286fd8008b24e10f4a7b9c}{inicio} ()
+\item 
+bool \hyperlink{class_lista_ac11269dd44ffe5edcd131d342d3486e6}{es\-Vacia} () const 
+\item 
+unsigned int \hyperlink{class_lista_ac4edced1120764142a0b382e612fae29}{num\-Elems} () const 
+\item 
+const \-T \& \hyperlink{class_lista_ab99d7f8a8a76f30f2904a23f8e836229}{elem} (unsigned int idx) const 
+\item 
+\hyperlink{class_lista_1_1_iterador}{\-Iterador} \hyperlink{class_lista_a4f790c92522e9eb8e22464a0a765d8ee}{principio} ()
+\item 
+\hyperlink{class_lista_1_1_iterador}{\-Iterador} \hyperlink{class_lista_a3d9ee0d73597611e05a1b783169fa93e}{final} () const 
+\item 
+\hyperlink{class_lista_1_1_iterador}{\-Iterador} \hyperlink{class_lista_a2d8dedbd4fc941514c0f4efacfae50d5}{borra} (const \hyperlink{class_lista_1_1_iterador}{\-Iterador} \&it)
+\item 
+void \hyperlink{class_lista_a8a36b315147ea175c3eec8308563a81d}{insertar} (const \-T \&elem, const \hyperlink{class_lista_1_1_iterador}{\-Iterador} \&it)
+\item 
+\hyperlink{class_lista_a9134315ae5674f8a2577aace6f27d4f9}{\-Lista} (const \hyperlink{class_lista}{\-Lista}$<$ \-T $>$ \&other)
+\item 
+\hyperlink{class_lista}{\-Lista}$<$ \-T $>$ \& \hyperlink{class_lista_a2d656f814bf12a4e61042ae5499409b4}{operator=} (const \hyperlink{class_lista}{\-Lista}$<$ \-T $>$ \&other)
+\item 
+bool \hyperlink{class_lista_adc7a6e7214644aca6276e91860507307}{operator==} (const \hyperlink{class_lista}{\-Lista}$<$ \-T $>$ \&rhs) const 
+\end{DoxyCompactItemize}
+
+
+\subsection{\-DescripciÃ³n detallada}
+\subsubsection*{template$<$class T$>$class Lista$<$ T $>$}
+
+\-Implementación del \-T\-A\-D \hyperlink{class_pila}{\-Pila} utilizando vectores dinámicos.
+
+\-Las operaciones son\-:
+
+
+\begin{DoxyItemize}
+\item \-Lista\-Vacia\-: -\/$>$ \hyperlink{class_lista}{\-Lista}. \-Generadora implementada en el constructor sin parámetros.
+\item \-Cons\-: \hyperlink{class_lista}{\-Lista}, \-Elem -\/$>$ \hyperlink{class_lista}{\-Lista}. \-Generadora.
+\item pon\-Dr\-: \hyperlink{class_lista}{\-Lista}, \-Elem -\/$>$ \hyperlink{class_lista}{\-Lista}. \-Modificadora.
+\item primero\-: \hyperlink{class_lista}{\-Lista} -\/ -\/$>$ \-Elem. \-Observadora parcial
+\item resto\-: \hyperlink{class_lista}{\-Lista} -\/ -\/$>$ \hyperlink{class_lista}{\-Lista}. \-Modificadora parcial
+\item ultimo\-: \hyperlink{class_lista}{\-Lista} -\/ -\/$>$ \-Elem. \-Observadora parcial
+\item inicio\-: \hyperlink{class_lista}{\-Lista} -\/ -\/$>$ \hyperlink{class_lista}{\-Lista}. \-Modificadora parcial
+\item es\-Vacia\-: \hyperlink{class_lista}{\-Lista} -\/$>$ \-Bool. \-Observadora
+\item num\-Elems\-: \hyperlink{class_lista}{\-Lista} -\/$>$ \-Elem. \-Obervadora.
+\item elem\-: \hyperlink{class_lista}{\-Lista}, \-Entero -\/ -\/$>$ \-Elem. \-Observador parcial.
+\end{DoxyItemize}
+
+\begin{DoxyAuthor}{\-Autor}
+\-Marco \-Antonio \-Gómez \-Martín 
+\end{DoxyAuthor}
+
+
+\subsection{\-DocumentaciÃ³n del constructor y destructor}
+\hypertarget{class_lista_adce924e21607848663132290be1a959d}{
+\index{\-Lista@{\-Lista}!\-Lista@{\-Lista}}
+\index{\-Lista@{\-Lista}!Lista@{\-Lista}}
+\subsubsection[{\-Lista}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf \-Lista}$<$ \-T $>$\-::{\bf \-Lista} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_adce924e21607848663132290be1a959d}
+\-Constructor; operación \-Lista\-Vacia. \hypertarget{class_lista_af297975e278b0c92cbf67d14b2f08366}{
+\index{\-Lista@{\-Lista}!$\sim$\-Lista@{$\sim$\-Lista}}
+\index{$\sim$\-Lista@{$\sim$\-Lista}!Lista@{\-Lista}}
+\subsubsection[{$\sim$\-Lista}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf \-Lista}$<$ \-T $>$\-::$\sim${\bf \-Lista} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_af297975e278b0c92cbf67d14b2f08366}
+\-Destructor; elimina la lista doblemente enlazada. \hypertarget{class_lista_a9134315ae5674f8a2577aace6f27d4f9}{
+\index{\-Lista@{\-Lista}!\-Lista@{\-Lista}}
+\index{\-Lista@{\-Lista}!Lista@{\-Lista}}
+\subsubsection[{\-Lista}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf \-Lista}$<$ \-T $>$\-::{\bf \-Lista} (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Lista}$<$ \-T $>$ \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_a9134315ae5674f8a2577aace6f27d4f9}
+\-Constructor copia 
+
+\subsection{\-DocumentaciÃ³n de las funciones miembro}
+\hypertarget{class_lista_a2d8dedbd4fc941514c0f4efacfae50d5}{
+\index{\-Lista@{\-Lista}!borra@{borra}}
+\index{borra@{borra}!Lista@{\-Lista}}
+\subsubsection[{borra}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf \-Iterador} {\bf \-Lista}$<$ \-T $>$\-::borra (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Iterador} \&}]{it}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_a2d8dedbd4fc941514c0f4efacfae50d5}
+\-Permite eliminar de la lista el elemento apuntado por el iterador que se pasa como parámetro. \-El iterador recibido \-D\-E\-J\-A \-D\-E \-S\-E\-R \-VÁ\-L\-I\-D\-O. \-En su lugar, deberá utilizarse el iterador devuelto, que apuntará al siguiente elemento al borrado. 
+\begin{DoxyParams}{\-ParÃ¡metros}
+{\em it} & \hyperlink{class_lista_1_1_iterador}{\-Iterador} colocado en el elemento que se quiere borrar. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Devuelve}
+\-Nuevo iterador colocado en el elemento siguiente al borrado (podría coincidir con \hyperlink{class_lista_a3d9ee0d73597611e05a1b783169fa93e}{final()} si el elemento que se borró era el último de la lista). 
+\end{DoxyReturn}
+\hypertarget{class_lista_a493a6004eed1b429bfde8a13f857f05e}{
+\index{\-Lista@{\-Lista}!\-Cons@{\-Cons}}
+\index{\-Cons@{\-Cons}!Lista@{\-Lista}}
+\subsubsection[{\-Cons}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ void {\bf \-Lista}$<$ \-T $>$\-::\-Cons (
+\begin{DoxyParamCaption}
+\item[{const \-T \&}]{elem}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_a493a6004eed1b429bfde8a13f857f05e}
+\-Añade un nuevo elemento en la cabeza de la lista. \-Operación generadora.
+
+
+\begin{DoxyParams}{\-ParÃ¡metros}
+{\em elem} & \-Elemento que se añade en la cabecera de la lista. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_lista_ab99d7f8a8a76f30f2904a23f8e836229}{
+\index{\-Lista@{\-Lista}!elem@{elem}}
+\index{elem@{elem}!Lista@{\-Lista}}
+\subsubsection[{elem}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ const \-T\& {\bf \-Lista}$<$ \-T $>$\-::elem (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{idx}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_ab99d7f8a8a76f30f2904a23f8e836229}
+\-Devuelve el elemento i-\/ésimo de la lista, teniendo en cuenta que el primer elemento (\hyperlink{class_lista_a356b565a60e2d85544ce3bbd5414f21a}{primero()}) es el elemento 0 y el último es \hyperlink{class_lista_ac4edced1120764142a0b382e612fae29}{num\-Elems()}-\/1, es decir idx está en \mbox{[}0..\hyperlink{class_lista_ac4edced1120764142a0b382e612fae29}{num\-Elems()}-\/1\mbox{]}. \-Operación observadora parcial que puede fallar si se da un índice incorrecto. \-El índice es entero sin signo, para evitar que se puedan pedir elementos negativos.
+
+elem(0, \-Cons(x, xs)) = x elem(n, \-Cons(x, xs)) = elem(n-\/1, xs) si n $>$ 0 error elem(n, xs) si !( 0 $<$= n $<$ num\-Elems(xs) ) \hypertarget{class_lista_ac11269dd44ffe5edcd131d342d3486e6}{
+\index{\-Lista@{\-Lista}!es\-Vacia@{es\-Vacia}}
+\index{es\-Vacia@{es\-Vacia}!Lista@{\-Lista}}
+\subsubsection[{es\-Vacia}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ bool {\bf \-Lista}$<$ \-T $>$\-::es\-Vacia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_ac11269dd44ffe5edcd131d342d3486e6}
+\-Operación observadora para saber si una lista tiene o no elementos.
+
+es\-Vacia(\-Lista\-Vacia) = true es\-Vacia(\-Cons(x, xs)) = false
+
+\begin{DoxyReturn}{\-Devuelve}
+true si la lista no tiene elementos. 
+\end{DoxyReturn}
+\hypertarget{class_lista_a3d9ee0d73597611e05a1b783169fa93e}{
+\index{\-Lista@{\-Lista}!final@{final}}
+\index{final@{final}!Lista@{\-Lista}}
+\subsubsection[{final}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf \-Iterador} {\bf \-Lista}$<$ \-T $>$\-::final (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_a3d9ee0d73597611e05a1b783169fa93e}
+\begin{DoxyReturn}{\-Devuelve}
+\-Devuelve un iterador al final del recorrido (fuera de éste). 
+\end{DoxyReturn}
+\hypertarget{class_lista_afbe8b38348286fd8008b24e10f4a7b9c}{
+\index{\-Lista@{\-Lista}!inicio@{inicio}}
+\index{inicio@{inicio}!Lista@{\-Lista}}
+\subsubsection[{inicio}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ void {\bf \-Lista}$<$ \-T $>$\-::inicio (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_afbe8b38348286fd8008b24e10f4a7b9c}
+\-Elimina el último elemento de la lista. \-Es un error intentar obtener el inicio de una lista vacía.
+
+inicio(\-Cons(x, Lista\-Vacia)) = \-Lista\-Vacia inicio(\-Cons(x, xs)) = \-Cons(x, inicio(xs)) \-S\-I !es\-Vacia(xs) error inicio(\-Lista\-Vacia) \hypertarget{class_lista_a8a36b315147ea175c3eec8308563a81d}{
+\index{\-Lista@{\-Lista}!insertar@{insertar}}
+\index{insertar@{insertar}!Lista@{\-Lista}}
+\subsubsection[{insertar}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ void {\bf \-Lista}$<$ \-T $>$\-::insertar (
+\begin{DoxyParamCaption}
+\item[{const \-T \&}]{elem, }
+\item[{const {\bf \-Iterador} \&}]{it}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_a8a36b315147ea175c3eec8308563a81d}
+\-Método para insertar un elemento en la lista en el punto marcado por el iterador. \-En concreto, se añade \-\_\-justo antes\-\_\- que el elemento actual. \-Es decir, si it==l.\-primero(), el elemento insertado se convierte en el primer elemento (y el iterador apuntará al segundo). \-Si it==l.\-final(), el elemento insertado será el último (e it seguirá apuntando fuera del recorrido). 
+\begin{DoxyParams}{\-ParÃ¡metros}
+{\em elem} & \-Valor del elemento a insertar. \\
+\hline
+{\em it} & \-Punto en el que insertar el elemento. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_lista_ac4edced1120764142a0b382e612fae29}{
+\index{\-Lista@{\-Lista}!num\-Elems@{num\-Elems}}
+\index{num\-Elems@{num\-Elems}!Lista@{\-Lista}}
+\subsubsection[{num\-Elems}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ unsigned int {\bf \-Lista}$<$ \-T $>$\-::num\-Elems (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_ac4edced1120764142a0b382e612fae29}
+\-Devuelve el número de elementos que hay en la lista. num\-Elems(\-Lista\-Vacia) = 0 num\-Elems(\-Cons(x, xs)) = 1 + num\-Elems(xs)
+
+\begin{DoxyReturn}{\-Devuelve}
+\-Número de elementos. 
+\end{DoxyReturn}
+\hypertarget{class_lista_a2d656f814bf12a4e61042ae5499409b4}{
+\index{\-Lista@{\-Lista}!operator=@{operator=}}
+\index{operator=@{operator=}!Lista@{\-Lista}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf \-Lista}$<$\-T$>$\& {\bf \-Lista}$<$ \-T $>$\-::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Lista}$<$ \-T $>$ \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_a2d656f814bf12a4e61042ae5499409b4}
+\-Operador de asignación \hypertarget{class_lista_adc7a6e7214644aca6276e91860507307}{
+\index{\-Lista@{\-Lista}!operator==@{operator==}}
+\index{operator==@{operator==}!Lista@{\-Lista}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ bool {\bf \-Lista}$<$ \-T $>$\-::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Lista}$<$ \-T $>$ \&}]{rhs}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_adc7a6e7214644aca6276e91860507307}
+\-Operador de comparación. \hypertarget{class_lista_ac7c8b711e925f3ba8e7f3aa6e45a05c9}{
+\index{\-Lista@{\-Lista}!pon\-Dr@{pon\-Dr}}
+\index{pon\-Dr@{pon\-Dr}!Lista@{\-Lista}}
+\subsubsection[{pon\-Dr}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ void {\bf \-Lista}$<$ \-T $>$\-::pon\-Dr (
+\begin{DoxyParamCaption}
+\item[{const \-T \&}]{elem}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_ac7c8b711e925f3ba8e7f3aa6e45a05c9}
+\-Añade un nuevo elemento al final de la lista (a la \char`\"{}derecha\char`\"{}). \-Operación modificadora.
+
+pon\-Dr(e, Lista\-Vacia) = \-Cons(e, Lista\-Vacia) pon\-Dr(e, \-Cons(x, xs)) = \-Cons(x, pon\-Dr(e, xs)) \hypertarget{class_lista_a356b565a60e2d85544ce3bbd5414f21a}{
+\index{\-Lista@{\-Lista}!primero@{primero}}
+\index{primero@{primero}!Lista@{\-Lista}}
+\subsubsection[{primero}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ const \-T\& {\bf \-Lista}$<$ \-T $>$\-::primero (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_a356b565a60e2d85544ce3bbd5414f21a}
+\-Devuelve el valor almacenado en la cabecera de la lista. \-Es un error preguntar por el primero de una lista vacía.
+
+primero(\-Cons(x, xs)) = x error primero(\-Lista\-Vacia)
+
+\begin{DoxyReturn}{\-Devuelve}
+\-Elemento en la cabecera de la lista. 
+\end{DoxyReturn}
+\hypertarget{class_lista_a4f790c92522e9eb8e22464a0a765d8ee}{
+\index{\-Lista@{\-Lista}!principio@{principio}}
+\index{principio@{principio}!Lista@{\-Lista}}
+\subsubsection[{principio}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf \-Iterador} {\bf \-Lista}$<$ \-T $>$\-::principio (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_a4f790c92522e9eb8e22464a0a765d8ee}
+\-Devuelve el iterador al principio de la lista. \begin{DoxyReturn}{\-Devuelve}
+iterador al principio de la lista; coincidirá con \hyperlink{class_lista_a3d9ee0d73597611e05a1b783169fa93e}{final()} si la lista está vacía. 
+\end{DoxyReturn}
+\hypertarget{class_lista_a9c2abbb0a41627b9af1e4418c807da4f}{
+\index{\-Lista@{\-Lista}!resto@{resto}}
+\index{resto@{resto}!Lista@{\-Lista}}
+\subsubsection[{resto}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ void {\bf \-Lista}$<$ \-T $>$\-::resto (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_a9c2abbb0a41627b9af1e4418c807da4f}
+\-Elimina el primer elemento de la lista. \-Es un error intentar obtener el resto de una lista vacía.
+
+resto(\-Cons(x, xs)) = xs error resto(\-Lista\-Vacia) \hypertarget{class_lista_aaed370a83bb04c7c0f8c59f00da59699}{
+\index{\-Lista@{\-Lista}!ultimo@{ultimo}}
+\index{ultimo@{ultimo}!Lista@{\-Lista}}
+\subsubsection[{ultimo}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ const \-T\& {\bf \-Lista}$<$ \-T $>$\-::ultimo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_lista_aaed370a83bb04c7c0f8c59f00da59699}
+\-Devuelve el valor almacenado en la última posición de la lista (a la derecha). \-Es un error preguntar por el primero de una lista vacía.
+
+ultimo(\-Cons(x, xs)) = x \-S\-I es\-Vacia(xs) ultimo(\-Cons(x, xs)) = ultimo(xs) \-S\-I !es\-Vacia(xs) error ultimo(\-Lista\-Vacia)
+
+\begin{DoxyReturn}{\-Devuelve}
+\-Elemento en la cola de la lista. 
+\end{DoxyReturn}
+
+
+\-La documentaciÃ³n para esta clase fue generada a partir del siguiente fichero\-:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{_lista_8h}{\-Lista.\-h}\end{DoxyCompactItemize}

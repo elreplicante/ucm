@@ -1,0 +1,193 @@
+\hypertarget{class_pila}{
+\section{\-Referencia de la plantilla de la \-Clase \-Pila$<$ \-T $>$}
+\label{class_pila}\index{\-Pila$<$ T $>$@{\-Pila$<$ T $>$}}
+}
+
+
+{\ttfamily \#include $<$\-Pila.\-h$>$}
+
+\subsection*{\-Tipos pÃºblicos}
+\begin{DoxyCompactItemize}
+\item 
+enum 
+\end{DoxyCompactItemize}
+\subsection*{\-MÃ©todos pÃºblicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_pila_a7ff5138a6888873379192365d7acbde4}{\-Pila} ()
+\item 
+\hyperlink{class_pila_a5bc38b4a06fdc0c1abc8736ebc5ba839}{$\sim$\-Pila} ()
+\item 
+void \hyperlink{class_pila_a61b7a6e55f9262bec3764b3d736df51f}{apila} (const \-T \&elem)
+\item 
+void \hyperlink{class_pila_ad0a6e11c6d6e105b491ed750ab3230c5}{desapila} ()
+\item 
+const \-T \& \hyperlink{class_pila_a4b760098842d2e07f4a98d132a7644c5}{cima} () const 
+\item 
+bool \hyperlink{class_pila_aa3704968456f3889797fe7f7ebab8d2d}{es\-Vacia} () const 
+\item 
+int \hyperlink{class_pila_a8000fd45a00fb1f5c1b9e4d8ca05aa68}{num\-Elems} () const 
+\item 
+\hyperlink{class_pila_af552f1da5c75e69ad2d5a8f188ef17d8}{\-Pila} (const \hyperlink{class_pila}{\-Pila}$<$ \-T $>$ \&other)
+\item 
+\hyperlink{class_pila}{\-Pila}$<$ \-T $>$ \& \hyperlink{class_pila_a729d513634250bf38aab8610b9c31770}{operator=} (const \hyperlink{class_pila}{\-Pila}$<$ \-T $>$ \&other)
+\item 
+bool \hyperlink{class_pila_a326d89e9595fc5940c101dcf4abb7fb1}{operator==} (const \hyperlink{class_pila}{\-Pila}$<$ \-T $>$ \&rhs) const 
+\end{DoxyCompactItemize}
+
+
+\subsection{\-DescripciÃ³n detallada}
+\subsubsection*{template$<$class \-T$>$class Pila$<$ T $>$}
+
+\-Implementación del \-T\-A\-D \hyperlink{class_pila}{\-Pila} utilizando vectores dinámicos.
+
+\-Las operaciones son\-:
+
+
+\begin{DoxyItemize}
+\item \-Pila\-Vacia\-: -\/$>$ \hyperlink{class_pila}{\-Pila}. \-Generadora implementada en el constructor sin parámetros.
+\item apila\-: \hyperlink{class_pila}{\-Pila}, \-Elem -\/$>$ \hyperlink{class_pila}{\-Pila}. \-Generadora
+\item desapila\-: \hyperlink{class_pila}{\-Pila} -\/ -\/$>$ \hyperlink{class_pila}{\-Pila}. \-Modificadora parcial.
+\item cima\-: \hyperlink{class_pila}{\-Pila} -\/ -\/$>$ \-Elem. \-Observadora parcial.
+\item es\-Vacia\-: \hyperlink{class_pila}{\-Pila} -\/$>$ \-Bool. \-Observadora.
+\item num\-Elems\-: \hyperlink{class_pila}{\-Pila} -\/$>$ \-Entero. \-Observadora.
+\end{DoxyItemize}
+
+\begin{DoxyAuthor}{\-Autor}
+\-Marco \-Antonio \-Gómez \-Martín 
+\end{DoxyAuthor}
+
+
+\subsection{\-DocumentaciÃ³n de las enumeraciones miembro de la clase}
+\hypertarget{class_pila_a7a6cb1063eb748ac9a54b6f39a78b0c0}{
+\subsubsection[{anonymous enum}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-T$>$ anonymous enum}}
+\label{class_pila_a7a6cb1063eb748ac9a54b6f39a78b0c0}
+\-Tamaño inicial del vector dinámico. 
+
+\subsection{\-DocumentaciÃ³n del constructor y destructor}
+\hypertarget{class_pila_a7ff5138a6888873379192365d7acbde4}{
+\index{\-Pila@{\-Pila}!\-Pila@{\-Pila}}
+\index{\-Pila@{\-Pila}!Pila@{\-Pila}}
+\subsubsection[{\-Pila}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-T$>$ {\bf \-Pila}$<$ \-T $>$\-::{\bf \-Pila} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pila_a7ff5138a6888873379192365d7acbde4}
+\-Constructor; operación \-Pila\-Vacia \hypertarget{class_pila_a5bc38b4a06fdc0c1abc8736ebc5ba839}{
+\index{\-Pila@{\-Pila}!$\sim$\-Pila@{$\sim$\-Pila}}
+\index{$\sim$\-Pila@{$\sim$\-Pila}!Pila@{\-Pila}}
+\subsubsection[{$\sim$\-Pila}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-T$>$ {\bf \-Pila}$<$ \-T $>$\-::$\sim${\bf \-Pila} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pila_a5bc38b4a06fdc0c1abc8736ebc5ba839}
+\-Destructor; elimina el vector. \hypertarget{class_pila_af552f1da5c75e69ad2d5a8f188ef17d8}{
+\index{\-Pila@{\-Pila}!\-Pila@{\-Pila}}
+\index{\-Pila@{\-Pila}!Pila@{\-Pila}}
+\subsubsection[{\-Pila}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-T$>$ {\bf \-Pila}$<$ \-T $>$\-::{\bf \-Pila} (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Pila}$<$ \-T $>$ \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pila_af552f1da5c75e69ad2d5a8f188ef17d8}
+\-Constructor copia 
+
+\subsection{\-DocumentaciÃ³n de las funciones miembro}
+\hypertarget{class_pila_a61b7a6e55f9262bec3764b3d736df51f}{
+\index{\-Pila@{\-Pila}!apila@{apila}}
+\index{apila@{apila}!Pila@{\-Pila}}
+\subsubsection[{apila}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-T$>$ void {\bf \-Pila}$<$ \-T $>$\-::apila (
+\begin{DoxyParamCaption}
+\item[{const \-T \&}]{elem}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pila_a61b7a6e55f9262bec3764b3d736df51f}
+\-Apila un elemento. \-Operación generadora.
+
+
+\begin{DoxyParams}{\-ParÃ¡metros}
+{\em elem} & \-Elemento a apilar. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_pila_a4b760098842d2e07f4a98d132a7644c5}{
+\index{\-Pila@{\-Pila}!cima@{cima}}
+\index{cima@{cima}!Pila@{\-Pila}}
+\subsubsection[{cima}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-T$>$ const \-T\& {\bf \-Pila}$<$ \-T $>$\-::cima (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pila_a4b760098842d2e07f4a98d132a7644c5}
+\-Devuelve el elemento en la cima de la pila. \-Operación observadora parcial, que falla si la pila está vacía.
+
+cima(\-Apila(elem, p) = elem error\-: cima(\-Pila\-Vacia)
+
+\begin{DoxyReturn}{\-Devuelve}
+\-Elemento en la cima de la pila. 
+\end{DoxyReturn}
+\hypertarget{class_pila_ad0a6e11c6d6e105b491ed750ab3230c5}{
+\index{\-Pila@{\-Pila}!desapila@{desapila}}
+\index{desapila@{desapila}!Pila@{\-Pila}}
+\subsubsection[{desapila}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-T$>$ void {\bf \-Pila}$<$ \-T $>$\-::desapila (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pila_ad0a6e11c6d6e105b491ed750ab3230c5}
+\-Desapila un elemento. \-Operación modificadora parcial, que falla si la pila está vacía.
+
+desapila(\-Apila(elem, p)) = p error\-: desapila(\-Pila\-Vacia) \hypertarget{class_pila_aa3704968456f3889797fe7f7ebab8d2d}{
+\index{\-Pila@{\-Pila}!es\-Vacia@{es\-Vacia}}
+\index{es\-Vacia@{es\-Vacia}!Pila@{\-Pila}}
+\subsubsection[{es\-Vacia}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-T$>$ bool {\bf \-Pila}$<$ \-T $>$\-::es\-Vacia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pila_aa3704968456f3889797fe7f7ebab8d2d}
+\-Devuelve true si la pila no tiene ningún elemento.
+
+es\-Vacia(\-Pila\-Vacia) = true es\-Vacia(\-Apila(elem, p)) = false
+
+\begin{DoxyReturn}{\-Devuelve}
+true si la pila no tiene ningún elemento. 
+\end{DoxyReturn}
+\hypertarget{class_pila_a8000fd45a00fb1f5c1b9e4d8ca05aa68}{
+\index{\-Pila@{\-Pila}!num\-Elems@{num\-Elems}}
+\index{num\-Elems@{num\-Elems}!Pila@{\-Pila}}
+\subsubsection[{num\-Elems}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-T$>$ int {\bf \-Pila}$<$ \-T $>$\-::num\-Elems (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pila_a8000fd45a00fb1f5c1b9e4d8ca05aa68}
+\-Devuelve el número de elementos que hay en la pila. num\-Elems(\-Pila\-Vacia) = 0 num\-Elems(\-Apila(elem, p)) = 1 + num\-Elems(p)
+
+\begin{DoxyReturn}{\-Devuelve}
+\-Número de elementos. 
+\end{DoxyReturn}
+\hypertarget{class_pila_a729d513634250bf38aab8610b9c31770}{
+\index{\-Pila@{\-Pila}!operator=@{operator=}}
+\index{operator=@{operator=}!Pila@{\-Pila}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-T$>$ {\bf \-Pila}$<$\-T$>$\& {\bf \-Pila}$<$ \-T $>$\-::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Pila}$<$ \-T $>$ \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pila_a729d513634250bf38aab8610b9c31770}
+\-Operador de asignación \hypertarget{class_pila_a326d89e9595fc5940c101dcf4abb7fb1}{
+\index{\-Pila@{\-Pila}!operator==@{operator==}}
+\index{operator==@{operator==}!Pila@{\-Pila}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class \-T$>$ bool {\bf \-Pila}$<$ \-T $>$\-::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Pila}$<$ \-T $>$ \&}]{rhs}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_pila_a326d89e9595fc5940c101dcf4abb7fb1}
+\-Operador de comparación. 
+
+\-La documentaciÃ³n para esta clase fue generada a partir del siguiente fichero\-:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{_pila_8h}{\-Pila.\-h}\end{DoxyCompactItemize}

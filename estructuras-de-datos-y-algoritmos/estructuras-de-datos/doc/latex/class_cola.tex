@@ -1,0 +1,182 @@
+\hypertarget{class_cola}{
+\section{\-Referencia de la plantilla de la \-Clase \-Cola$<$ \-T $>$}
+\label{class_cola}\index{\-Cola$<$ T $>$@{\-Cola$<$ T $>$}}
+}
+
+
+{\ttfamily \#include $<$\-Cola.\-h$>$}
+
+\subsection*{\-MÃ©todos pÃºblicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_cola_aea3a971c7c522618f4dc972e8b4ff153}{\-Cola} ()
+\item 
+\hyperlink{class_cola_af4d55930921c93c626006ba2e842530b}{$\sim$\-Cola} ()
+\item 
+void \hyperlink{class_cola_aa532c750d29cc5b7d552a8aaf074751a}{pon\-Detras} (const \-T \&elem)
+\item 
+void \hyperlink{class_cola_ac35037e6dba916c390337a27ce6bff68}{quita\-Prim} ()
+\item 
+const \-T \& \hyperlink{class_cola_acdce850efd0e11fc413e3afa20be2edb}{primero} () const 
+\item 
+bool \hyperlink{class_cola_ac73bf5ea4b10a9d62a227a436f7f0061}{es\-Vacia} () const 
+\item 
+int \hyperlink{class_cola_a509cb83089a1446cce231bdb4a3b7bd6}{num\-Elems} () const 
+\item 
+\hyperlink{class_cola_a98c60fa48e17ba91dc284a47fd4949de}{\-Cola} (const \hyperlink{class_cola}{\-Cola}$<$ \-T $>$ \&other)
+\item 
+\hyperlink{class_cola}{\-Cola}$<$ \-T $>$ \& \hyperlink{class_cola_a72c2f4b81ed4d9584f01f64977e244ba}{operator=} (const \hyperlink{class_cola}{\-Cola}$<$ \-T $>$ \&other)
+\item 
+bool \hyperlink{class_cola_afd0086492119b9ab5f32a2a293a9e6a0}{operator==} (const \hyperlink{class_cola}{\-Cola}$<$ \-T $>$ \&rhs) const 
+\end{DoxyCompactItemize}
+
+
+\subsection{\-DescripciÃ³n detallada}
+\subsubsection*{template$<$class T$>$class Cola$<$ T $>$}
+
+\-Implementación del \-T\-A\-D \hyperlink{class_cola}{\-Cola} utilizando una lista enlazada.
+
+\-Las operaciones son\-:
+
+
+\begin{DoxyItemize}
+\item \-Cola\-Vacia\-: -\/$>$ \hyperlink{class_cola}{\-Cola}. \-Generadora implementada en el constructor sin parámetros.
+\item \-Pon\-Detras\-: \hyperlink{class_cola}{\-Cola}, \-Elem -\/$>$ \hyperlink{class_cola}{\-Cola}. \-Generadora
+\item quita\-Prim\-: \hyperlink{class_cola}{\-Cola} -\/ -\/$>$ \hyperlink{class_cola}{\-Cola}. \-Modificadora parcial.
+\item primero\-: \hyperlink{class_cola}{\-Cola} -\/ -\/$>$ \-Elem. \-Observadora parcial.
+\item es\-Vacia\-: \hyperlink{class_cola}{\-Cola} -\/$>$ \-Bool. \-Observadora.
+\item num\-Elems\-: \hyperlink{class_cola}{\-Cola} -\/$>$ \-Entero. \-Observadora.
+\end{DoxyItemize}
+
+\begin{DoxyAuthor}{\-Autor}
+\-Marco \-Antonio \-Gómez \-Martín 
+\end{DoxyAuthor}
+
+
+\subsection{\-DocumentaciÃ³n del constructor y destructor}
+\hypertarget{class_cola_aea3a971c7c522618f4dc972e8b4ff153}{
+\index{\-Cola@{\-Cola}!\-Cola@{\-Cola}}
+\index{\-Cola@{\-Cola}!Cola@{\-Cola}}
+\subsubsection[{\-Cola}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf \-Cola}$<$ \-T $>$\-::{\bf \-Cola} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_cola_aea3a971c7c522618f4dc972e8b4ff153}
+\-Constructor; operacion \-Cola\-Vacia \hypertarget{class_cola_af4d55930921c93c626006ba2e842530b}{
+\index{\-Cola@{\-Cola}!$\sim$\-Cola@{$\sim$\-Cola}}
+\index{$\sim$\-Cola@{$\sim$\-Cola}!Cola@{\-Cola}}
+\subsubsection[{$\sim$\-Cola}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf \-Cola}$<$ \-T $>$\-::$\sim${\bf \-Cola} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_cola_af4d55930921c93c626006ba2e842530b}
+\-Destructor; elimina la lista enlazada. \hypertarget{class_cola_a98c60fa48e17ba91dc284a47fd4949de}{
+\index{\-Cola@{\-Cola}!\-Cola@{\-Cola}}
+\index{\-Cola@{\-Cola}!Cola@{\-Cola}}
+\subsubsection[{\-Cola}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf \-Cola}$<$ \-T $>$\-::{\bf \-Cola} (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Cola}$<$ \-T $>$ \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_cola_a98c60fa48e17ba91dc284a47fd4949de}
+\-Constructor copia 
+
+\subsection{\-DocumentaciÃ³n de las funciones miembro}
+\hypertarget{class_cola_ac73bf5ea4b10a9d62a227a436f7f0061}{
+\index{\-Cola@{\-Cola}!es\-Vacia@{es\-Vacia}}
+\index{es\-Vacia@{es\-Vacia}!Cola@{\-Cola}}
+\subsubsection[{es\-Vacia}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ bool {\bf \-Cola}$<$ \-T $>$\-::es\-Vacia (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_cola_ac73bf5ea4b10a9d62a227a436f7f0061}
+\-Devuelve true si la cola no tiene ningún elemento.
+
+es\-Vacia(\-Cola) = true es\-Vacia(\-Pon\-Detras(elem, p)) = false
+
+\begin{DoxyReturn}{\-Devuelve}
+true si la cola no tiene ningún elemento. 
+\end{DoxyReturn}
+\hypertarget{class_cola_a509cb83089a1446cce231bdb4a3b7bd6}{
+\index{\-Cola@{\-Cola}!num\-Elems@{num\-Elems}}
+\index{num\-Elems@{num\-Elems}!Cola@{\-Cola}}
+\subsubsection[{num\-Elems}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ int {\bf \-Cola}$<$ \-T $>$\-::num\-Elems (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_cola_a509cb83089a1446cce231bdb4a3b7bd6}
+\-Devuelve el número de elementos que hay en la cola. num\-Elems(\-Cola\-Vacia) = 0 num\-Elems(\-Pon\-Detras(elem, p)) = 1 + num\-Elems(p)
+
+\begin{DoxyReturn}{\-Devuelve}
+\-Número de elementos. 
+\end{DoxyReturn}
+\hypertarget{class_cola_a72c2f4b81ed4d9584f01f64977e244ba}{
+\index{\-Cola@{\-Cola}!operator=@{operator=}}
+\index{operator=@{operator=}!Cola@{\-Cola}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf \-Cola}$<$\-T$>$\& {\bf \-Cola}$<$ \-T $>$\-::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Cola}$<$ \-T $>$ \&}]{other}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_cola_a72c2f4b81ed4d9584f01f64977e244ba}
+\-Operador de asignación \hypertarget{class_cola_afd0086492119b9ab5f32a2a293a9e6a0}{
+\index{\-Cola@{\-Cola}!operator==@{operator==}}
+\index{operator==@{operator==}!Cola@{\-Cola}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ bool {\bf \-Cola}$<$ \-T $>$\-::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf \-Cola}$<$ \-T $>$ \&}]{rhs}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_cola_afd0086492119b9ab5f32a2a293a9e6a0}
+\-Operador de comparación. \hypertarget{class_cola_aa532c750d29cc5b7d552a8aaf074751a}{
+\index{\-Cola@{\-Cola}!pon\-Detras@{pon\-Detras}}
+\index{pon\-Detras@{pon\-Detras}!Cola@{\-Cola}}
+\subsubsection[{pon\-Detras}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ void {\bf \-Cola}$<$ \-T $>$\-::pon\-Detras (
+\begin{DoxyParamCaption}
+\item[{const \-T \&}]{elem}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_cola_aa532c750d29cc5b7d552a8aaf074751a}
+\-Añade un elemento en la parte trasera de la cola. \-Operación generadora.
+
+
+\begin{DoxyParams}{\-ParÃ¡metros}
+{\em elem} & \-Elemento a añadir. \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_cola_acdce850efd0e11fc413e3afa20be2edb}{
+\index{\-Cola@{\-Cola}!primero@{primero}}
+\index{primero@{primero}!Cola@{\-Cola}}
+\subsubsection[{primero}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ const \-T\& {\bf \-Cola}$<$ \-T $>$\-::primero (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_cola_acdce850efd0e11fc413e3afa20be2edb}
+\-Devuelve el primer elemento de la cola. \-Operación observadora parcial, que falla si la cola está vacía.
+
+primero(\-Pon\-Detras(elem, Cola\-Vacia)) = elem primero(\-Pon\-Detras(elem, xs)) = primero(xs) si !es\-Vacia(xs) error\-: primero(\-Cola\-Vacia)
+
+\begin{DoxyReturn}{\-Devuelve}
+\-El primer elemento de la cola. 
+\end{DoxyReturn}
+\hypertarget{class_cola_ac35037e6dba916c390337a27ce6bff68}{
+\index{\-Cola@{\-Cola}!quita\-Prim@{quita\-Prim}}
+\index{quita\-Prim@{quita\-Prim}!Cola@{\-Cola}}
+\subsubsection[{quita\-Prim}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ void {\bf \-Cola}$<$ \-T $>$\-::quita\-Prim (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}
+\label{class_cola_ac35037e6dba916c390337a27ce6bff68}
+\-Elimina el primer elemento de la cola. \-Operación modificadora parcial, que falla si la cola está vacía.
+
+quita\-Prim(\-Pon\-Detras(elem, Cola\-Vacia)) = \-Cola\-Vacia quita\-Prim(\-Pon\-Detras(elem, xs)) = \-Pon\-Detras(elem, quita\-Prim(xs)) si !es\-Vacia(xs) error\-: quita\-Prim(\-Cola\-Vacia) 
+
+\-La documentaciÃ³n para esta clase fue generada a partir del siguiente fichero\-:\begin{DoxyCompactItemize}
+\item 
+include/\hyperlink{_cola_8h}{\-Cola.\-h}\end{DoxyCompactItemize}

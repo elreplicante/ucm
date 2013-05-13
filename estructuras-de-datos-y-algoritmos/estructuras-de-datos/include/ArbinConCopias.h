@@ -1,13 +1,13 @@
 /**
   @file Arbin.h
 
-  ImplementaciÛn din·mica del TAD Arbol Binario.
+  ImplementaciÔøΩn dinÔøΩmica del TAD Arbol Binario.
 
   Estructura de Datos y Algoritmos
-  Facultad de Inform·tica
+  Facultad de InformÔøΩtica
   Universidad Complutense de Madrid
 
- (c) Marco Antonio GÛmez MartÌn, 2012
+ (c) Marco Antonio GÔøΩmez MartÔøΩn, 2012
 */
 #ifndef __ARBIN_H
 #define __ARBIN_H
@@ -19,22 +19,22 @@
 #include "Cola.h" // Tipo auxiliar para implementar el recorrido por niveles
 
 /**
- ImplementaciÛn din·mica del TAD Arbin utilizando 
+ Implementaci√≥n din√°mica del TAD Arbin utilizando
  nodos con un puntero al hijo izquierdo y otro al
  hijo derecho.
 
  Las operaciones son:
 
  - ArbolVacio: -> Arbin. Generadora implementada en el
-   constructor sin par·metros.
+   constructor sin par√°metros.
  - Cons: Arbin, Elem, Arbin -> Arbin. Generadora implementada
-   en un constructor con tres par·metros.
+   en un constructor con tres par√°metros.
  - hijoIz, hijoDr: Arbin - -> Arbin. Observadoras que
-   devuelven el hijo izquiero o derecho de un ·rbol.
+   devuelven el hijo izquiero o derecho de un √°rbol.
  - esVacio: Arbin -> Bool. Observadora que devuelve si
-   un ·rbol binario es vacÌo.
+   un √°rbol binario es vac√≠o.
 
- @author Marco Antonio GÛmez MartÌn
+ @author Marco Antonio G√≥mez Mart√≠n
  */
 template <class T>
 class Arbin {
@@ -50,8 +50,8 @@ public:
 	}
 
 	/**
-	 Otra operaciÛn generadora (est·tica) que
-	 evita las copias vaciando los ·rboles que recibe.
+	 Otra operaci√≥n generadora (est√°tica) que
+	 evita las copias vaciando los √°rboles que recibe.
 	 */
 	template <class T>
 	static Arbin<T> construyeYVacia(Arbin<T> &iz, const T&elem, Arbin<T> &dr) {
@@ -61,7 +61,7 @@ public:
 		return ret;
 	}
 
-	/** Destructor; elimina la estructura jer·rquica de nodos. */
+	/** Destructor; elimina la estructura jer√°rquica de nodos. */
 	~Arbin() {
 		libera();
 		_ra = NULL;
@@ -72,7 +72,7 @@ public:
 
 	 raiz(Cons(iz, elem, dr)) = elem
 	 error raiz(ArbolVacio)
-	 @return Elemento en la raÌz.
+	 @return Elemento en la ra√≠z.
 	 */
 	const T &raiz() const {
 		if (esVacio())
@@ -81,8 +81,8 @@ public:
 	}
 
 	/**
-	 Devuelve un ·rbol copia del ·rbol izquierdo.
-	 Es una operaciÛn parcial (falla con el ·rbol vacÌo).
+	 Devuelve un √°rbol copia del √°rbol izquierdo.
+	 Es una operaci√≥n parcial (falla con el √°rbol vac√≠o).
 
 	 hijoIz(Cons(iz, elem, dr)) = iz
 	 error hijoIz(ArbolVacio)
@@ -95,8 +95,8 @@ public:
 	}
 
 	/**
-	 Devuelve un ·rbol copia del ·rbol derecho.
-	 Es una operaciÛn parcial (falla con el ·rbol vacÌo).
+	 Devuelve un √°rbol copia del √°rbol derecho.
+	 Es una operaci√≥n parcial (falla con el √°rbol vac√≠o).
 
 	 hijoDr(Cons(iz, elem, dr)) = dr
 	 error hijoDr(ArbolVacio)
@@ -109,8 +109,8 @@ public:
 	}
 
 	/**
-	 OperaciÛn observadora que devuelve si el ·rbol
-	 es vacÌo (no contiene elementos) o no.
+	 Operaci√≥n observadora que devuelve si el √°rbol
+	 es vac√≠o (no contiene elementos) o no.
 
 	 esVacio(ArbolVacio) = true
 	 esVacio(Cons(iz, elem, dr)) = false
@@ -120,7 +120,7 @@ public:
 	}
 
 	// //
-	// RECORRIDOS SOBRE EL ¡RBOL
+	// RECORRIDOS SOBRE EL ÔøΩRBOL
 	// //
 
 	Lista<T> preorden() const {
@@ -168,28 +168,28 @@ public:
 	// //
 
 	/**
-	 Devuelve el n˙mero de nodos de un ·rbol.
+	 Devuelve el n√∫mero de nodos de un √°rbol.
 	 */
 	unsigned int numNodos() const {
 		return numNodosAux(_ra);
 	}
 
 	/**
-	 Devuelve la talla del ·rbol.
+	 Devuelve la talla del ÔøΩrbol.
 	 */
 	unsigned int talla() const {
 		return tallaAux(_ra);
 	}
 
 	/**
-	 Devuelve el n˙mero de hojas de un ·rbol.
+	 Devuelve el n√∫mero de hojas de un √°rbol.
 	 */
 	unsigned int numHojas() const {
 		return numHojasAux(_ra);
 	}
 
 	// //
-	// M…TODOS DE "FONTANERÕA" DE C++ QUE HACEN VERS¡TIL
+	// M√âTODOS DE "FONTANER√çA" DE C++ QUE HACEN VERS√ÅTIL
 	// A LA CLASE
 	// //
 
@@ -198,7 +198,7 @@ public:
 		copia(other);
 	}
 
-	/** Operador de asignaciÛn */
+	/** Operador de asignaciÔøΩn */
 	Arbin<T> &operator=(const Arbin<T> &other) {
 		if (this != &other) {
 			libera();
@@ -207,7 +207,7 @@ public:
 		return *this;
 	}
 
-	/** Operador de comparaciÛn. */
+	/** Operador de comparaci√≥n. */
 	bool operator==(const Arbin<T> &rhs) const {
 		return comparaAux(_ra, rhs._ra);
 	}
@@ -235,8 +235,8 @@ protected:
 	};
 
 	/**
-	 Constructor protegido que crea un ·rbol
-	 a partir de una estructura jer·rquica de nodos
+	 Constructor protegido que crea un √°rbol
+	 a partir de una estructura jer√°rquica de nodos
 	 previamente creada.
 	 Se utiliza en hijoIz e hijoDr.
 	 */
@@ -252,7 +252,7 @@ protected:
 	}
 
 	// //
-	// M…TODOS AUXILIARES PARA LOS RECORRIDOS
+	// M√âTODOS AUXILIARES PARA LOS RECORRIDOS
 	// //
 	
 	static void preordenAcu(Nodo *ra, Lista<T> &acu) {
@@ -283,7 +283,7 @@ protected:
 	}
 
 	// //
-	// M…TODOS AUXILIARES (RECURSIVOS) DE OTRAS OPERACIONES
+	// M√âTODOS AUXILIARES (RECURSIVOS) DE OTRAS OPERACIONES
 	// OBSERVADORAS
 	// //
 
@@ -318,9 +318,9 @@ protected:
 private:
 
 	/**
-	 Elimina todos los nodos de una estructura arbÛrea
+	 Elimina todos los nodos de una estructura arb√≥rea
 	 que comienza con el puntero ra.
-	 Se admite que el nodo sea NULL (no habr· nada que
+	 Se admite que el nodo sea NULL (no habr√° nada que
 	 liberar).
 	 */
 	static void libera(Nodo *ra) {
@@ -332,10 +332,10 @@ private:
 	}
 
 	/**
-	 Copia la estructura jer·rquica de nodos pasada
-	 como par·metro (puntero a su raiz) y devuelve un
-	 puntero a una nueva estructura jer·rquica, copia
-	 de anterior (y que, por tanto, habr· que liberar).
+	 Copia la estructura jer√°rquica de nodos pasada
+	 como par√°metro (puntero a su raiz) y devuelve un
+	 puntero a una nueva estructura jer√°rquica, copia
+	 de anterior (y que, por tanto, habr√° que liberar).
 	 */
 	static Nodo *copiaAux(Nodo *ra) {
 		if (ra == NULL)
@@ -347,7 +347,7 @@ private:
 	}
 
 	/**
-	 Compara dos estructuras jer·rquicas de nodos,
+	 Compara dos estructuras jer√°rquicas de nodos,
 	 dadas sus raices (que pueden ser NULL).
 	 */
 	static bool comparaAux(Nodo *r1, Nodo *r2) {
@@ -363,10 +363,10 @@ private:
 	}
 
 protected:
-	// RaÌz protegida para poder hacer los ejercicios
-	// de extensiÛn del TAD Arbin heredando de la clase
+	// Ra√≠z protegida para poder hacer los ejercicios
+	// de extensi√≥n del TAD Arbin heredando de la clase
 	/** 
-	 Puntero a la raÌz de la estructura jer·rquica
+	 Puntero a la ra√≠z de la estructura jer√°rquica
 	 de nodos.
 	 */
 	Nodo *_ra;
