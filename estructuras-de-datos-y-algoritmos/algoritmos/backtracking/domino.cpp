@@ -44,37 +44,35 @@ void domino_va(int solucion[], int k, bool usada[][N], bool &exito) {
 			usada[solucion[k - 1]][j] = false;
 			usada[j][solucion[k - 1]] = false;
 		}
+	}
+}
+
+int main() {
+	bool usada[N][N];
+	int solucion[PROFUNDIDAD];
+
+	for (int i = 0; i < PROFUNDIDAD; i++) {
+
+			solucion[i] = 0;
+
+		}
+
+	solucion[0] = 6;
+	solucion[1] = 6;
+
+	for (int i = 0; i < N; i++) {
+		for (int j = 0; j < N; j++) {
+			usada[i][j] = false;
+		}
 
 	}
 
-}
+	usada[6][6] = true;
+	bool exito = false;
+	domino_va(solucion, 2, usada, exito);
+	cout << "Terminado";
 
-//int main() {
-//	bool usada[N][N];
-//	int solucion[PROFUNDIDAD];
-//
-//	for (int i = 0; i < PROFUNDIDAD; i++) {
-//
-//			solucion[i] = 0;
-//
-//		}
-//	solucion[0] = 6;
-//	solucion[1] = 6;
-//
-//	for (int i = 0; i < N; i++) {
-//		for (int j = 0; j < N; j++) {
-//			usada[i][j] = false;
-//		}
-//
-//	}
-//
-//
-//	usada[6][6] = true;
-//	bool exito = false;
-//	domino_va(solucion, 2, usada, exito);
-//	cout << "Terminado";
-//
-//	return 0;
-//
-//}
+	return 0;
+
+}
 

@@ -28,9 +28,9 @@ void tratarSolucion(int sol[], int n) {
 	cout << "Solucion: " << endl;
 	for (int i = 0; i < n; i++) {
 		cout << sol[i] << " ";
-		cout << endl;
+		//
 	}
-
+	cout << endl;
 
 }
 
@@ -40,7 +40,7 @@ void nQueens(int n, int solution[], int k){
 		solution[k] = i;
 		if (safe(solution, k)) {
 			if (esSolucion(n, k)) {
-				if (esSolucion(n, k))
+				//if (esSolucion(n, k))
 					tratarSolucion(solution, k);
 			}
 			else {
@@ -57,8 +57,8 @@ void nQueens (int n) {
 }
 
 
-//int main() {
-//	nQueens(9);
-//	return 0;
-//}
+int main() {
+	nQueens(9);
+	return 0;
+}
 
